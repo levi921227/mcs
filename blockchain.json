@@ -1,0 +1,1100 @@
+[
+    {
+        "index": 0,
+        "transactions": [],
+        "timestamp": "2025-03-03T21:57:54.835180",
+        "previous_hash": "0",
+        "verifier_id": -1,
+        "hash": "7110a4c19e88a3939eb087a3a494164b65bdfa33424cfa5e24d641891650878a"
+    },
+    {
+        "index": 1,
+        "transactions": [
+            {
+                "type": "task_submissions",
+                "task_id": "3cd4a418338e",
+                "submissions": [
+                    {
+                        "worker_id": 0,
+                        "task_hash": "70fda8a5d69eee667e1aaac862ffcff49ef5c8a5c1cdf90ec17bc0beaf6d0f9f",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "9e684df4d3cd35325ead0bc7fa7159698aaf381b52cc5a7cd9de5c02097ba852",
+                        "task_id": "3cd4a418338e"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_hash": "70fda8a5d69eee667e1aaac862ffcff49ef5c8a5c1cdf90ec17bc0beaf6d0f9f",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "243c1f2a59ea91e6c8ae96224886fe202ad81fe22fc5098dfc0f9cdb14e8df21",
+                        "task_id": "3cd4a418338e"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_hash": "70fda8a5d69eee667e1aaac862ffcff49ef5c8a5c1cdf90ec17bc0beaf6d0f9f",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "1fa0272d1a4db71b434ad84ada280f34c8f24e61dc1fda2338da8d928786f726",
+                        "task_id": "3cd4a418338e"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_hash": "70fda8a5d69eee667e1aaac862ffcff49ef5c8a5c1cdf90ec17bc0beaf6d0f9f",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "550af59f88d2ff023c6949fb9d06a087d6b8a38250108c21dd34d6e937f825f9",
+                        "task_id": "3cd4a418338e"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_hash": "70fda8a5d69eee667e1aaac862ffcff49ef5c8a5c1cdf90ec17bc0beaf6d0f9f",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "fbfde011ce860ed185ede132847346bb6c1ba3cdebb4049adcb52c4e7c5c24c6",
+                        "task_id": "3cd4a418338e"
+                    }
+                ],
+                "timestamp": "2025-03-03T21:57:54.836684"
+            },
+            {
+                "type": "task_evaluations",
+                "task_id": "3cd4a418338e",
+                "evaluations": [
+                    {
+                        "worker_id": 0,
+                        "task_completion": 0.9470198967634891,
+                        "status": "rewarded",
+                        "r_coin_before": 15,
+                        "r_coin_after": 25,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "3cd4a418338e"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_completion": 0.8255629641794021,
+                        "status": "rewarded",
+                        "r_coin_before": 55,
+                        "r_coin_after": 65,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "3cd4a418338e"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_completion": 0.9040114428270538,
+                        "status": "rewarded",
+                        "r_coin_before": 12,
+                        "r_coin_after": 22,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "3cd4a418338e"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_completion": 0.8784727953684965,
+                        "status": "rewarded",
+                        "r_coin_before": 49,
+                        "r_coin_after": 59,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "3cd4a418338e"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_completion": 0.882461722168063,
+                        "status": "rewarded",
+                        "r_coin_before": 15,
+                        "r_coin_after": 25,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "3cd4a418338e"
+                    }
+                ],
+                "verifier_id": 2,
+                "timestamp": "2025-03-03T21:57:54.836684"
+            }
+        ],
+        "timestamp": "2025-03-03T21:57:54.836684",
+        "previous_hash": "7110a4c19e88a3939eb087a3a494164b65bdfa33424cfa5e24d641891650878a",
+        "verifier_id": 2,
+        "hash": "0db13c257cd354e84b7fd992e3101975bc0c50b90d08823f9aedae9800722fd3"
+    },
+    {
+        "index": 2,
+        "transactions": [
+            {
+                "type": "task_submissions",
+                "task_id": "6e73177d167c",
+                "submissions": [
+                    {
+                        "worker_id": 0,
+                        "task_hash": "faced6507dae8f2379e93ebe5a19a43f6159ccaa2502384e234f89b19ceadc32",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "c9cc9df8aeba1446a5ad3712591a1f860b2d4139e5e8c8880c5e30b3b6cb84de",
+                        "task_id": "6e73177d167c"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_hash": "faced6507dae8f2379e93ebe5a19a43f6159ccaa2502384e234f89b19ceadc32",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "a1f6e63428a61511405d4f75add61c90e8dc06f972e3a7e68d8963bf9e55281b",
+                        "task_id": "6e73177d167c"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_hash": "faced6507dae8f2379e93ebe5a19a43f6159ccaa2502384e234f89b19ceadc32",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "f73fb18d1aabf59329e2e15b113c8277c81502d9522ad1c45b34d7369c278cf6",
+                        "task_id": "6e73177d167c"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_hash": "faced6507dae8f2379e93ebe5a19a43f6159ccaa2502384e234f89b19ceadc32",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "0ae1b0b4fe8b11bfcde33ef0eab782f5dd9410b2cb7e3a31df40dbe670dd174e",
+                        "task_id": "6e73177d167c"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_hash": "faced6507dae8f2379e93ebe5a19a43f6159ccaa2502384e234f89b19ceadc32",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "45b582cd5210fb710b888182c486d044dbe1fd9bb5e8c36d45ee5f077346bb14",
+                        "task_id": "6e73177d167c"
+                    }
+                ],
+                "timestamp": "2025-03-03T21:57:54.836684"
+            },
+            {
+                "type": "task_evaluations",
+                "task_id": "6e73177d167c",
+                "evaluations": [
+                    {
+                        "worker_id": 0,
+                        "task_completion": 0.6365035825157803,
+                        "status": "neutral",
+                        "r_coin_before": 5,
+                        "r_coin_after": 5,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "6e73177d167c"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_completion": 0.5669861363296199,
+                        "status": "neutral",
+                        "r_coin_before": 21,
+                        "r_coin_after": 21,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "6e73177d167c"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_completion": 0.7553497136838607,
+                        "status": "neutral",
+                        "r_coin_before": 12,
+                        "r_coin_after": 12,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "6e73177d167c"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_completion": 0.8925674190909927,
+                        "status": "rewarded",
+                        "r_coin_before": 12,
+                        "r_coin_after": 22,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "6e73177d167c"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_completion": 0.3293099890724525,
+                        "status": "punished",
+                        "r_coin_before": 9,
+                        "r_coin_after": 7,
+                        "r_coin_change": -2,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "6e73177d167c"
+                    }
+                ],
+                "verifier_id": 0,
+                "timestamp": "2025-03-03T21:57:54.836684"
+            }
+        ],
+        "timestamp": "2025-03-03T21:57:54.836684",
+        "previous_hash": "0db13c257cd354e84b7fd992e3101975bc0c50b90d08823f9aedae9800722fd3",
+        "verifier_id": 0,
+        "hash": "d7ac6a6aeaaebefbc0bc71ccb953700b3fe1c619fdfa0b4ccc8437bfd1401558"
+    },
+    {
+        "index": 3,
+        "transactions": [
+            {
+                "type": "task_submissions",
+                "task_id": "d39874da08f5",
+                "submissions": [
+                    {
+                        "worker_id": 0,
+                        "task_hash": "4c708de5aaabb769c7436959a163ad5b209e5273efd6ae8ed88d99f6eb4510e6",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "84a98d91de17e7f42aad75e8dbb26658876cc1e7075f9febf36bad961cb133c7",
+                        "task_id": "d39874da08f5"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_hash": "4c708de5aaabb769c7436959a163ad5b209e5273efd6ae8ed88d99f6eb4510e6",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "885fe13937defee7ffcd613f08e51397a1f97a8bca4e3915057d6455a9520f58",
+                        "task_id": "d39874da08f5"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_hash": "4c708de5aaabb769c7436959a163ad5b209e5273efd6ae8ed88d99f6eb4510e6",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "3c740de5e1a3b7043a0c78822065731ef578c6d7d6e47b40559bd4cdf0ccc1ad",
+                        "task_id": "d39874da08f5"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_hash": "4c708de5aaabb769c7436959a163ad5b209e5273efd6ae8ed88d99f6eb4510e6",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "a4eed8c60bd1326dec36bf39aa9720e18877feb68a03b2f32d9d86ee18914870",
+                        "task_id": "d39874da08f5"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_hash": "4c708de5aaabb769c7436959a163ad5b209e5273efd6ae8ed88d99f6eb4510e6",
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "signature": "65abe80a86777d099b01af3d9afa5ead04613f2deaedbf2ec91af2dbced4ae6e",
+                        "task_id": "d39874da08f5"
+                    }
+                ],
+                "timestamp": "2025-03-03T21:57:54.836684"
+            },
+            {
+                "type": "task_evaluations",
+                "task_id": "d39874da08f5",
+                "evaluations": [
+                    {
+                        "worker_id": 0,
+                        "task_completion": 0.7000442514459954,
+                        "status": "neutral",
+                        "r_coin_before": 7,
+                        "r_coin_after": 7,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "d39874da08f5"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_completion": 0.730018123032865,
+                        "status": "neutral",
+                        "r_coin_before": 10,
+                        "r_coin_after": 10,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "d39874da08f5"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_completion": 0.8325905124283451,
+                        "status": "rewarded",
+                        "r_coin_before": 9,
+                        "r_coin_after": 19,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "d39874da08f5"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_completion": 0.9486395649581288,
+                        "status": "rewarded",
+                        "r_coin_before": 6,
+                        "r_coin_after": 16,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "d39874da08f5"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_completion": 0.7381994467781265,
+                        "status": "neutral",
+                        "r_coin_before": 1,
+                        "r_coin_after": 1,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.836684",
+                        "task_id": "d39874da08f5"
+                    }
+                ],
+                "verifier_id": 3,
+                "timestamp": "2025-03-03T21:57:54.836684"
+            }
+        ],
+        "timestamp": "2025-03-03T21:57:54.836684",
+        "previous_hash": "d7ac6a6aeaaebefbc0bc71ccb953700b3fe1c619fdfa0b4ccc8437bfd1401558",
+        "verifier_id": 3,
+        "hash": "80188e7a3c28a01e4e7d78e64f61643771eec8c91996db622d1fa941d46216c3"
+    },
+    {
+        "index": 4,
+        "transactions": [
+            {
+                "type": "task_submissions",
+                "task_id": "c5de250f94ae",
+                "submissions": [
+                    {
+                        "worker_id": 0,
+                        "task_hash": "d7eeb334006d091ea9cd43ab22292a47aecddeff8e53584524db07cbec582d64",
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "signature": "2595b6cf8b23e8d2db5172f90032fc727b9ee28ef6f6141aaaef3a07e26755f8",
+                        "task_id": "c5de250f94ae"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_hash": "d7eeb334006d091ea9cd43ab22292a47aecddeff8e53584524db07cbec582d64",
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "signature": "811b98094fbc65b6cecc617b7e937d5529ec967a9b7698ac0ae73e3094e49fa6",
+                        "task_id": "c5de250f94ae"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_hash": "d7eeb334006d091ea9cd43ab22292a47aecddeff8e53584524db07cbec582d64",
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "signature": "e251a5df89e8942beca61254d8532603dee27d1364e31c421ac664e7cec9f19c",
+                        "task_id": "c5de250f94ae"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_hash": "d7eeb334006d091ea9cd43ab22292a47aecddeff8e53584524db07cbec582d64",
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "signature": "57f4f55f4b3653bfcd382c54a6ca89f4272029a3073ae7c4c5b74f01c4f15dfc",
+                        "task_id": "c5de250f94ae"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_hash": "d7eeb334006d091ea9cd43ab22292a47aecddeff8e53584524db07cbec582d64",
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "signature": "22efa422fb1f5b26f2570a3f1cdba78c7078aa8b3b7641292715d1201df835ce",
+                        "task_id": "c5de250f94ae"
+                    }
+                ],
+                "timestamp": "2025-03-03T21:57:54.837689"
+            },
+            {
+                "type": "task_evaluations",
+                "task_id": "c5de250f94ae",
+                "evaluations": [
+                    {
+                        "worker_id": 0,
+                        "task_completion": 0.7296898872677003,
+                        "status": "neutral",
+                        "r_coin_before": 7,
+                        "r_coin_after": 7,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "task_id": "c5de250f94ae"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_completion": 0.8997224584340535,
+                        "status": "rewarded",
+                        "r_coin_before": 10,
+                        "r_coin_after": 20,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "task_id": "c5de250f94ae"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_completion": 0.8866566854726803,
+                        "status": "rewarded",
+                        "r_coin_before": 3,
+                        "r_coin_after": 13,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "task_id": "c5de250f94ae"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_completion": 0.6585535495237619,
+                        "status": "neutral",
+                        "r_coin_before": 6,
+                        "r_coin_after": 6,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "task_id": "c5de250f94ae"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_completion": 0.9786235946525248,
+                        "status": "rewarded",
+                        "r_coin_before": 0,
+                        "r_coin_after": 10,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "task_id": "c5de250f94ae"
+                    }
+                ],
+                "verifier_id": 3,
+                "timestamp": "2025-03-03T21:57:54.837689"
+            }
+        ],
+        "timestamp": "2025-03-03T21:57:54.837689",
+        "previous_hash": "80188e7a3c28a01e4e7d78e64f61643771eec8c91996db622d1fa941d46216c3",
+        "verifier_id": 3,
+        "hash": "001b7bd8986c36085b3966244eeac6fffc03a410e2f6c0bb87acd27583f5059c"
+    },
+    {
+        "index": 5,
+        "transactions": [
+            {
+                "type": "task_submissions",
+                "task_id": "56e1d6ce170e",
+                "submissions": [
+                    {
+                        "worker_id": 0,
+                        "task_hash": "7ee67a37f486cf8d9d3c44c5fe7219cc119884c65e765e4b470fe6a2ee88fac7",
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "signature": "c8a22a44a0ecb09defe6e4b583e1e35f341f054dd4be65c71e9117ca7b5c07e2",
+                        "task_id": "56e1d6ce170e"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_hash": "7ee67a37f486cf8d9d3c44c5fe7219cc119884c65e765e4b470fe6a2ee88fac7",
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "signature": "69d73d10a60255852ccfd39a297ccffff8f3db1413fcfb07a4623b9f7895754d",
+                        "task_id": "56e1d6ce170e"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_hash": "7ee67a37f486cf8d9d3c44c5fe7219cc119884c65e765e4b470fe6a2ee88fac7",
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "signature": "8d7910f2e56756fe4250e4bd6e1aefe9bfbda07dc9f1473fb1d8069eca4fc7e6",
+                        "task_id": "56e1d6ce170e"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_hash": "7ee67a37f486cf8d9d3c44c5fe7219cc119884c65e765e4b470fe6a2ee88fac7",
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "signature": "ca59f2536049360c60086662f1874ed67a1943220cfed61712bbd0667870dcd8",
+                        "task_id": "56e1d6ce170e"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_hash": "7ee67a37f486cf8d9d3c44c5fe7219cc119884c65e765e4b470fe6a2ee88fac7",
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "signature": "9ca66530de7284b78866ddf9895deb3295db97765d6eef7ef976eece6703581d",
+                        "task_id": "56e1d6ce170e"
+                    }
+                ],
+                "timestamp": "2025-03-03T21:57:54.837689"
+            },
+            {
+                "type": "task_evaluations",
+                "task_id": "56e1d6ce170e",
+                "evaluations": [
+                    {
+                        "worker_id": 0,
+                        "task_completion": 0.9099328205802765,
+                        "status": "rewarded",
+                        "r_coin_before": 7,
+                        "r_coin_after": 17,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "task_id": "56e1d6ce170e"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_completion": 0.8475118044949732,
+                        "status": "rewarded",
+                        "r_coin_before": 0,
+                        "r_coin_after": 10,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "task_id": "56e1d6ce170e"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_completion": 0.6448735212695191,
+                        "status": "neutral",
+                        "r_coin_before": 9,
+                        "r_coin_after": 9,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "task_id": "56e1d6ce170e"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_completion": 0.697797673064403,
+                        "status": "neutral",
+                        "r_coin_before": 5,
+                        "r_coin_after": 5,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "task_id": "56e1d6ce170e"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_completion": 0.5442683712733296,
+                        "status": "neutral",
+                        "r_coin_before": 1,
+                        "r_coin_after": 1,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.837689",
+                        "task_id": "56e1d6ce170e"
+                    }
+                ],
+                "verifier_id": 3,
+                "timestamp": "2025-03-03T21:57:54.837689"
+            }
+        ],
+        "timestamp": "2025-03-03T21:57:54.837689",
+        "previous_hash": "001b7bd8986c36085b3966244eeac6fffc03a410e2f6c0bb87acd27583f5059c",
+        "verifier_id": 3,
+        "hash": "fa118856af8c3c79eafda57d569f692d89d68be1eccc3120b6aa3982a0c226e3"
+    },
+    {
+        "index": 6,
+        "transactions": [
+            {
+                "type": "task_submissions",
+                "task_id": "0569845a9666",
+                "submissions": [
+                    {
+                        "worker_id": 0,
+                        "task_hash": "fcf238c50719ecbb85376a85ed323cfbc17e4e59f88b00bbb20fb49cf6ebf63b",
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "signature": "9575542c5914a60f1d133aaf90e454cb231dca71d9dd4a66902ce927be4079f8",
+                        "task_id": "0569845a9666"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_hash": "fcf238c50719ecbb85376a85ed323cfbc17e4e59f88b00bbb20fb49cf6ebf63b",
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "signature": "cb983bbc499c2e11a198b405486389528de09465cbba2f7e222e901d9eb30b58",
+                        "task_id": "0569845a9666"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_hash": "fcf238c50719ecbb85376a85ed323cfbc17e4e59f88b00bbb20fb49cf6ebf63b",
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "signature": "21c86aa61ac6b7b62bf3b07f7fb0e31e12c9838f7ecb62a2ae54f6232cfed279",
+                        "task_id": "0569845a9666"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_hash": "fcf238c50719ecbb85376a85ed323cfbc17e4e59f88b00bbb20fb49cf6ebf63b",
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "signature": "99e0e7ac66883f2a947aa3464012fec2567306a0dd9fb8924e2cb2884db91f90",
+                        "task_id": "0569845a9666"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_hash": "fcf238c50719ecbb85376a85ed323cfbc17e4e59f88b00bbb20fb49cf6ebf63b",
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "signature": "383491e55a54fa969367947f9cbfcc55eda34a5b6ec676caf58bf23d7cdd0f43",
+                        "task_id": "0569845a9666"
+                    }
+                ],
+                "timestamp": "2025-03-03T21:57:54.838690"
+            },
+            {
+                "type": "task_evaluations",
+                "task_id": "0569845a9666",
+                "evaluations": [
+                    {
+                        "worker_id": 0,
+                        "task_completion": 0.7450886735339355,
+                        "status": "neutral",
+                        "r_coin_before": 2,
+                        "r_coin_after": 2,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "task_id": "0569845a9666"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_completion": 0.6595179532746633,
+                        "status": "neutral",
+                        "r_coin_before": 4,
+                        "r_coin_after": 4,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "task_id": "0569845a9666"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_completion": 0.7781871534989934,
+                        "status": "neutral",
+                        "r_coin_before": 5,
+                        "r_coin_after": 5,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "task_id": "0569845a9666"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_completion": 0.9167506331039762,
+                        "status": "rewarded",
+                        "r_coin_before": 1,
+                        "r_coin_after": 11,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "task_id": "0569845a9666"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_completion": 0.541532951080075,
+                        "status": "neutral",
+                        "r_coin_before": 0,
+                        "r_coin_after": 0,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "task_id": "0569845a9666"
+                    }
+                ],
+                "verifier_id": 1,
+                "timestamp": "2025-03-03T21:57:54.838690"
+            }
+        ],
+        "timestamp": "2025-03-03T21:57:54.838690",
+        "previous_hash": "fa118856af8c3c79eafda57d569f692d89d68be1eccc3120b6aa3982a0c226e3",
+        "verifier_id": 1,
+        "hash": "1810b001f865b3d89982b5aec9e7d840ec07055fe5590968155404531d985037"
+    },
+    {
+        "index": 7,
+        "transactions": [
+            {
+                "type": "task_submissions",
+                "task_id": "7bf70f124234",
+                "submissions": [
+                    {
+                        "worker_id": 0,
+                        "task_hash": "925cf006ff7d3505295450267f4b0cbe0f6bcced2c11a7c144db5ca04a3e7b7d",
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "signature": "6c63a39c48a140cffa0b606cc771e6b969ebf15965c08be618d9796ec68c4cdd",
+                        "task_id": "7bf70f124234"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_hash": "925cf006ff7d3505295450267f4b0cbe0f6bcced2c11a7c144db5ca04a3e7b7d",
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "signature": "8904800e349f6c47d5e00dc1325651ddb047a571425a72147c22cee2ea7b5d53",
+                        "task_id": "7bf70f124234"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_hash": "925cf006ff7d3505295450267f4b0cbe0f6bcced2c11a7c144db5ca04a3e7b7d",
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "signature": "d1eb1eb73a00aec12202a2ed02911a4df19701994042387470daffe4d2473fcf",
+                        "task_id": "7bf70f124234"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_hash": "925cf006ff7d3505295450267f4b0cbe0f6bcced2c11a7c144db5ca04a3e7b7d",
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "signature": "c44701b5b06ba95e4df8758cc4cfdd60e018943f310eeb9e0bdb1630deb3860a",
+                        "task_id": "7bf70f124234"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_hash": "925cf006ff7d3505295450267f4b0cbe0f6bcced2c11a7c144db5ca04a3e7b7d",
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "signature": "1bdab695ba34fafd334db0168e9f9391e7718a92042ede77281d6e6a919f319f",
+                        "task_id": "7bf70f124234"
+                    }
+                ],
+                "timestamp": "2025-03-03T21:57:54.838690"
+            },
+            {
+                "type": "task_evaluations",
+                "task_id": "7bf70f124234",
+                "evaluations": [
+                    {
+                        "worker_id": 0,
+                        "task_completion": 0.7134458673616462,
+                        "status": "neutral",
+                        "r_coin_before": 0,
+                        "r_coin_after": 0,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "task_id": "7bf70f124234"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_completion": 0.6160957734337613,
+                        "status": "neutral",
+                        "r_coin_before": 6,
+                        "r_coin_after": 6,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "task_id": "7bf70f124234"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_completion": 0.8549144959816101,
+                        "status": "rewarded",
+                        "r_coin_before": 0,
+                        "r_coin_after": 10,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "task_id": "7bf70f124234"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_completion": 0.854566481708629,
+                        "status": "rewarded",
+                        "r_coin_before": 5,
+                        "r_coin_after": 15,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "task_id": "7bf70f124234"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_completion": 0.5254512469701089,
+                        "status": "neutral",
+                        "r_coin_before": 0,
+                        "r_coin_after": 0,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.838690",
+                        "task_id": "7bf70f124234"
+                    }
+                ],
+                "verifier_id": 3,
+                "timestamp": "2025-03-03T21:57:54.838690"
+            }
+        ],
+        "timestamp": "2025-03-03T21:57:54.838690",
+        "previous_hash": "1810b001f865b3d89982b5aec9e7d840ec07055fe5590968155404531d985037",
+        "verifier_id": 3,
+        "hash": "cca6c8123ed9757b14c062b11f41158f3d46ba7da98f0f91ac673dc1ad64b5b1"
+    },
+    {
+        "index": 8,
+        "transactions": [
+            {
+                "type": "task_submissions",
+                "task_id": "c22ebad8e8a6",
+                "submissions": [
+                    {
+                        "worker_id": 0,
+                        "task_hash": "bea91c191108660c076ee475f2b2bc9e8135b57103b457440d7a17dc5299dedc",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "9bc7a137bee2666c2f91956bf0cd52607c6a6f5967fdeaee3ff8aceb5fe6871a",
+                        "task_id": "c22ebad8e8a6"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_hash": "bea91c191108660c076ee475f2b2bc9e8135b57103b457440d7a17dc5299dedc",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "725a8e01349a564d2f1d9247fcc5c916b278ebd73eace57a16c068377b7bf4b9",
+                        "task_id": "c22ebad8e8a6"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_hash": "bea91c191108660c076ee475f2b2bc9e8135b57103b457440d7a17dc5299dedc",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "e76c02ae457418dbe1a4d47a9ab11fb2382346527e0afa9328f199f81019fa04",
+                        "task_id": "c22ebad8e8a6"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_hash": "bea91c191108660c076ee475f2b2bc9e8135b57103b457440d7a17dc5299dedc",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "d07040541367eab6c1e38fed961fe8a3fd774fd0bbdd542fc5a184bbaf20e161",
+                        "task_id": "c22ebad8e8a6"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_hash": "bea91c191108660c076ee475f2b2bc9e8135b57103b457440d7a17dc5299dedc",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "3296943a8beb724ffeb2484927026e4ea62588132dfa76420b500f60f0e4591b",
+                        "task_id": "c22ebad8e8a6"
+                    }
+                ],
+                "timestamp": "2025-03-03T21:57:54.844695"
+            },
+            {
+                "type": "task_evaluations",
+                "task_id": "c22ebad8e8a6",
+                "evaluations": [
+                    {
+                        "worker_id": 0,
+                        "task_completion": 0.9523771289103932,
+                        "status": "rewarded",
+                        "r_coin_before": 0,
+                        "r_coin_after": 10,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "c22ebad8e8a6"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_completion": 0.7782761814186747,
+                        "status": "neutral",
+                        "r_coin_before": 6,
+                        "r_coin_after": 6,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "c22ebad8e8a6"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_completion": 0.5240511939500809,
+                        "status": "neutral",
+                        "r_coin_before": 10,
+                        "r_coin_after": 10,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "c22ebad8e8a6"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_completion": 0.9673124611473598,
+                        "status": "rewarded",
+                        "r_coin_before": 18,
+                        "r_coin_after": 28,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "c22ebad8e8a6"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_completion": 0.8737721704810465,
+                        "status": "rewarded",
+                        "r_coin_before": 0,
+                        "r_coin_after": 10,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "c22ebad8e8a6"
+                    }
+                ],
+                "verifier_id": 3,
+                "timestamp": "2025-03-03T21:57:54.844695"
+            }
+        ],
+        "timestamp": "2025-03-03T21:57:54.844695",
+        "previous_hash": "cca6c8123ed9757b14c062b11f41158f3d46ba7da98f0f91ac673dc1ad64b5b1",
+        "verifier_id": 3,
+        "hash": "253120a6c78336b423193b9a0575e0896a85997a61e5f52f0d24a3070c22d769"
+    },
+    {
+        "index": 9,
+        "transactions": [
+            {
+                "type": "task_submissions",
+                "task_id": "b8f4fb9fe84b",
+                "submissions": [
+                    {
+                        "worker_id": 0,
+                        "task_hash": "aebbc6d63efe6ec0c3bf043c85fc93579ae6f40ebc492c1cf731a7df959a81eb",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "985432a37dc72f94a6f793a0a4c3a4dfc87fd234c17f74dfe2cd08ab32fe5ad6",
+                        "task_id": "b8f4fb9fe84b"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_hash": "aebbc6d63efe6ec0c3bf043c85fc93579ae6f40ebc492c1cf731a7df959a81eb",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "18126e8aa3533ffa1f9cb06be30d173c831a4a985f4c37173f9bac4070bffa83",
+                        "task_id": "b8f4fb9fe84b"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_hash": "aebbc6d63efe6ec0c3bf043c85fc93579ae6f40ebc492c1cf731a7df959a81eb",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "738f19074e3b5f460cb6782ee34debc639d1376f774ede436b461118a4b2aaf8",
+                        "task_id": "b8f4fb9fe84b"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_hash": "aebbc6d63efe6ec0c3bf043c85fc93579ae6f40ebc492c1cf731a7df959a81eb",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "773d8c2772f8780ff7b0d974eb02f2dacb89fa558d0ca70be36ae4f716cfed33",
+                        "task_id": "b8f4fb9fe84b"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_hash": "aebbc6d63efe6ec0c3bf043c85fc93579ae6f40ebc492c1cf731a7df959a81eb",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "086ffd437a98d470e2a9cf1d237ea22f436b82426d39d9b4d16b44cba58b1906",
+                        "task_id": "b8f4fb9fe84b"
+                    }
+                ],
+                "timestamp": "2025-03-03T21:57:54.844695"
+            },
+            {
+                "type": "task_evaluations",
+                "task_id": "b8f4fb9fe84b",
+                "evaluations": [
+                    {
+                        "worker_id": 0,
+                        "task_completion": 0.7787449580631984,
+                        "status": "neutral",
+                        "r_coin_before": 5,
+                        "r_coin_after": 5,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "b8f4fb9fe84b"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_completion": 0.9044801516019505,
+                        "status": "rewarded",
+                        "r_coin_before": 2,
+                        "r_coin_after": 12,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "b8f4fb9fe84b"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_completion": 0.8346991231882445,
+                        "status": "rewarded",
+                        "r_coin_before": 9,
+                        "r_coin_after": 19,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "b8f4fb9fe84b"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_completion": 0.48271074129309505,
+                        "status": "punished",
+                        "r_coin_before": 20,
+                        "r_coin_after": 18,
+                        "r_coin_change": -2,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "b8f4fb9fe84b"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_completion": 0.844232104621348,
+                        "status": "rewarded",
+                        "r_coin_before": 9,
+                        "r_coin_after": 19,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "b8f4fb9fe84b"
+                    }
+                ],
+                "verifier_id": 3,
+                "timestamp": "2025-03-03T21:57:54.844695"
+            }
+        ],
+        "timestamp": "2025-03-03T21:57:54.844695",
+        "previous_hash": "253120a6c78336b423193b9a0575e0896a85997a61e5f52f0d24a3070c22d769",
+        "verifier_id": 3,
+        "hash": "702966c875496ccab3027c1479f8ab8d547b8a024271e45958c8ef66c7ef3597"
+    },
+    {
+        "index": 10,
+        "transactions": [
+            {
+                "type": "task_submissions",
+                "task_id": "55c3b464f128",
+                "submissions": [
+                    {
+                        "worker_id": 0,
+                        "task_hash": "95e3cb8642757f288b31dac0dea617aae97c3d9f0efa57e69b4b264b9e91bb3f",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "d34d88e8b1c53e851170350505f8fbf0d45ac1767dad46d5773be58dcd6ecf2a",
+                        "task_id": "55c3b464f128"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_hash": "95e3cb8642757f288b31dac0dea617aae97c3d9f0efa57e69b4b264b9e91bb3f",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "8e275cbec24256ac042f6aa551c9f0ab77073838ed0bceaa1906ac794b61d32f",
+                        "task_id": "55c3b464f128"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_hash": "95e3cb8642757f288b31dac0dea617aae97c3d9f0efa57e69b4b264b9e91bb3f",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "4f9f16f8cd7feeee7f9b042423c70569b9f2d1e19668b4c7586a8a9eee4081d2",
+                        "task_id": "55c3b464f128"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_hash": "95e3cb8642757f288b31dac0dea617aae97c3d9f0efa57e69b4b264b9e91bb3f",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "0896c15965a07d4dd0af34c06a3cec5cf35ac03da17b74f61e9d305312ce924d",
+                        "task_id": "55c3b464f128"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_hash": "95e3cb8642757f288b31dac0dea617aae97c3d9f0efa57e69b4b264b9e91bb3f",
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "signature": "eeecd2e8081d03d97b3c471e8e2234810da9e2f3178387eafdc173c1b2c05616",
+                        "task_id": "55c3b464f128"
+                    }
+                ],
+                "timestamp": "2025-03-03T21:57:54.844695"
+            },
+            {
+                "type": "task_evaluations",
+                "task_id": "55c3b464f128",
+                "evaluations": [
+                    {
+                        "worker_id": 0,
+                        "task_completion": 0.7678070168335137,
+                        "status": "neutral",
+                        "r_coin_before": 2,
+                        "r_coin_after": 2,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "55c3b464f128"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_completion": 0.377819047120801,
+                        "status": "punished",
+                        "r_coin_before": 9,
+                        "r_coin_after": 7,
+                        "r_coin_change": -2,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "55c3b464f128"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_completion": 0.774914197781068,
+                        "status": "neutral",
+                        "r_coin_before": 11,
+                        "r_coin_after": 11,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "55c3b464f128"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_completion": 0.5524035321715035,
+                        "status": "neutral",
+                        "r_coin_before": 19,
+                        "r_coin_after": 19,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "55c3b464f128"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_completion": 0.31735419435195217,
+                        "status": "punished",
+                        "r_coin_before": 16,
+                        "r_coin_after": 14,
+                        "r_coin_change": -2,
+                        "timestamp": "2025-03-03T21:57:54.844695",
+                        "task_id": "55c3b464f128"
+                    }
+                ],
+                "verifier_id": 3,
+                "timestamp": "2025-03-03T21:57:54.844695"
+            }
+        ],
+        "timestamp": "2025-03-03T21:57:54.844695",
+        "previous_hash": "702966c875496ccab3027c1479f8ab8d547b8a024271e45958c8ef66c7ef3597",
+        "verifier_id": 3,
+        "hash": "b0661f38a09c3c7edf4a240f437f84476829f3ec23cb6d7facaec372dc8673c6"
+    }
+]
