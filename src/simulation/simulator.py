@@ -1,4 +1,5 @@
 import logging
+import random
 from typing import List
 from datetime import datetime
 from src.blockchain.blockchain import Blockchain
@@ -17,7 +18,7 @@ def simulate_crowdsensing(blockchain: Blockchain, server: Server, workers: List[
 
     # Step1: 創建任務
     task_description = f"Sensor data collection task #{task_num}"
-    reward_amount = 20  # 設定任務獎勵金額
+    reward_amount = random.randint(1, 50)  # 設定任務獎勵金額
     task_info = requester.create_task(task_description, reward_amount)
     
     if not task_info:

@@ -11,11 +11,11 @@ class Requester(Node):
         try:
             if reward_amount <= 0:
                 raise ValueError(f"獎勵金額必須為正數: {reward_amount}")
-            if reward_amount > self.r_coin:
-                raise ValueError(f"Requester {self.id} 沒有足夠的 R-coin (擁有: {self.r_coin}, 獎勵: {reward_amount})")
+            if reward_amount > self.s_coin:
+                raise ValueError(f"Requester {self.id} 沒有足夠的 R-coin (擁有: {self.s_coin}, 獎勵: {reward_amount})")
             
             # 扣除獎勵金額
-            self.update_coins(r_coin_change=-reward_amount)
+            self.update_coins(s_coin_change=-reward_amount)
             
             return {
                 "requester_id": self.id,

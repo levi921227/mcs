@@ -33,8 +33,8 @@ def main():
         logger.info(f"創建工作節點 {i}，初始 R-coin: {worker.r_coin}")
 
     # 創建請求者
-    requester = Requester(id=num_workers, initial_r_coin=1000)  # 給予請求者較多的初始 R-coin
-    logger.info(f"創建請求者 {requester.id}，初始 R-coin: {requester.r_coin}")
+    requester = Requester(id=num_workers, initial_s_coin=1000)  # 給予請求者較多的初始 R-coin
+    logger.info(f"創建請求者 {requester.id}，初始 S-coin: {requester.r_coin}")
 
     # 創建服務器和區塊鏈
     server = Server(config)

@@ -2,1099 +2,1099 @@
     {
         "index": 0,
         "transactions": [],
-        "timestamp": "2025-03-18T23:02:45.453662",
+        "timestamp": "2025-03-18T23:44:22.492474",
         "previous_hash": "0",
         "verifier_id": -1,
-        "hash": "98d8fa7e0467e33f86ffd1860d0a74d78c447ac22da3aabf960a4828533df4e0"
+        "hash": "0ecd164eae42665a91727646f40029cac512589e9bb269a37c3093a67434befc"
     },
     {
         "index": 1,
         "transactions": [
             {
                 "type": "task_submissions",
-                "task_id": "68ac68d13413",
+                "task_id": "49e3ca681db6",
                 "submissions": [
                     {
                         "worker_id": 0,
                         "task_hash": "70fda8a5d69eee667e1aaac862ffcff49ef5c8a5c1cdf90ec17bc0beaf6d0f9f",
-                        "timestamp": "2025-03-18T23:02:45.455662",
-                        "signature": "b3c7f61c7ad3932e8639584092cc0fc14f4dd21cec72f645faa08c68fc86d32a",
-                        "task_id": "68ac68d13413"
+                        "timestamp": "2025-03-18T23:44:22.492474",
+                        "signature": "cb3e4fd0e68ccbf0391697e651dc35632be9f476fc4be871687e6270fbf933b1",
+                        "task_id": "49e3ca681db6"
                     },
                     {
                         "worker_id": 1,
                         "task_hash": "70fda8a5d69eee667e1aaac862ffcff49ef5c8a5c1cdf90ec17bc0beaf6d0f9f",
-                        "timestamp": "2025-03-18T23:02:45.455662",
-                        "signature": "1da2e5b292108acc8e6a4bfc5e8db9aceea89c0d8cfcd02a54049a0d61f2200a",
-                        "task_id": "68ac68d13413"
+                        "timestamp": "2025-03-18T23:44:22.492474",
+                        "signature": "f42dddc14797c8e9d56f1a147d7a05df260893d405ecf23fe96c10871ca0146f",
+                        "task_id": "49e3ca681db6"
                     },
                     {
                         "worker_id": 2,
                         "task_hash": "70fda8a5d69eee667e1aaac862ffcff49ef5c8a5c1cdf90ec17bc0beaf6d0f9f",
-                        "timestamp": "2025-03-18T23:02:45.455662",
-                        "signature": "61c1567239337df9535eb0ae52a874718345a12bd8eaa5790b90389519ae6570",
-                        "task_id": "68ac68d13413"
+                        "timestamp": "2025-03-18T23:44:22.492474",
+                        "signature": "803ed5bf5b0274716503acb89c5d3ae787770418f5d904e7e1ddd9b596d4190f",
+                        "task_id": "49e3ca681db6"
                     },
                     {
                         "worker_id": 3,
                         "task_hash": "70fda8a5d69eee667e1aaac862ffcff49ef5c8a5c1cdf90ec17bc0beaf6d0f9f",
-                        "timestamp": "2025-03-18T23:02:45.455662",
-                        "signature": "97eacbd5c8e00cbe804814a11eaa789244523d7bd1ad7c35d8e73ba6f0480e64",
-                        "task_id": "68ac68d13413"
+                        "timestamp": "2025-03-18T23:44:22.492474",
+                        "signature": "917dfe7811fc2b59ef03ebc4624e913d3635288b444d59f17ace39a12cef8811",
+                        "task_id": "49e3ca681db6"
                     },
                     {
                         "worker_id": 4,
                         "task_hash": "70fda8a5d69eee667e1aaac862ffcff49ef5c8a5c1cdf90ec17bc0beaf6d0f9f",
-                        "timestamp": "2025-03-18T23:02:45.455662",
-                        "signature": "8cfdb22c1d5980567be893a7c904c05f4f7b927cd961ae81b92af93e8981b333",
-                        "task_id": "68ac68d13413"
+                        "timestamp": "2025-03-18T23:44:22.492474",
+                        "signature": "2bb6652e22c149e40bca52e8dde62e5d90ee5338690a4474e505d1adacd37692",
+                        "task_id": "49e3ca681db6"
                     }
                 ],
-                "timestamp": "2025-03-18T23:02:45.455662"
+                "timestamp": "2025-03-18T23:44:22.492474"
             },
             {
                 "type": "task_evaluations",
-                "task_id": "68ac68d13413",
+                "task_id": "49e3ca681db6",
                 "evaluations": [
                     {
                         "worker_id": 0,
-                        "task_completion": 0.7033792774196482,
+                        "task_completion": 0.7702765660061281,
                         "status": "neutral",
-                        "r_coin_before": 8,
-                        "r_coin_after": 8,
+                        "r_coin_before": 29,
+                        "r_coin_after": 29,
                         "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.455662",
-                        "task_id": "68ac68d13413"
+                        "timestamp": "2025-03-18T23:44:22.492474",
+                        "task_id": "49e3ca681db6"
                     },
                     {
                         "worker_id": 1,
-                        "task_completion": 0.6901776310828673,
-                        "status": "neutral",
-                        "r_coin_before": 11,
-                        "r_coin_after": 11,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.455662",
-                        "task_id": "68ac68d13413"
+                        "task_completion": 0.9253847336449276,
+                        "status": "rewarded",
+                        "r_coin_before": 20,
+                        "r_coin_after": 30,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.492474",
+                        "task_id": "49e3ca681db6"
                     },
                     {
                         "worker_id": 2,
-                        "task_completion": 0.9728203501935692,
-                        "status": "rewarded",
-                        "r_coin_before": 3,
-                        "r_coin_after": 13,
-                        "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.455662",
-                        "task_id": "68ac68d13413"
+                        "task_completion": 0.7044696818394479,
+                        "status": "neutral",
+                        "r_coin_before": 21,
+                        "r_coin_after": 21,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-18T23:44:22.492474",
+                        "task_id": "49e3ca681db6"
                     },
                     {
                         "worker_id": 3,
-                        "task_completion": 0.8268788794164477,
-                        "status": "rewarded",
-                        "r_coin_before": 53,
-                        "r_coin_after": 63,
-                        "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.455662",
-                        "task_id": "68ac68d13413"
+                        "task_completion": 0.7736368525298083,
+                        "status": "neutral",
+                        "r_coin_before": 41,
+                        "r_coin_after": 41,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-18T23:44:22.492474",
+                        "task_id": "49e3ca681db6"
                     },
                     {
                         "worker_id": 4,
-                        "task_completion": 0.6098486596191227,
+                        "task_completion": 0.786943955419869,
                         "status": "neutral",
-                        "r_coin_before": 3,
-                        "r_coin_after": 3,
+                        "r_coin_before": 71,
+                        "r_coin_after": 71,
                         "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.455662",
-                        "task_id": "68ac68d13413"
+                        "timestamp": "2025-03-18T23:44:22.492474",
+                        "task_id": "49e3ca681db6"
                     }
                 ],
-                "verifier_id": 4,
-                "timestamp": "2025-03-18T23:02:45.455662"
+                "verifier_id": 1,
+                "timestamp": "2025-03-18T23:44:22.492474"
             }
         ],
-        "timestamp": "2025-03-18T23:02:45.455662",
-        "previous_hash": "98d8fa7e0467e33f86ffd1860d0a74d78c447ac22da3aabf960a4828533df4e0",
-        "verifier_id": 4,
-        "hash": "8b3ad902434f389e3acdd9100e61d365ad960dea41c8f5c98b6472c5020cb3a3"
+        "timestamp": "2025-03-18T23:44:22.492474",
+        "previous_hash": "0ecd164eae42665a91727646f40029cac512589e9bb269a37c3093a67434befc",
+        "verifier_id": 1,
+        "hash": "af84a296bef70bdcef02851bf2a78ae76dceeb46114c44ec53d2a152be33a051"
     },
     {
         "index": 2,
         "transactions": [
             {
                 "type": "task_submissions",
-                "task_id": "576c6b4aff43",
+                "task_id": "0026bbd49d1a",
                 "submissions": [
                     {
                         "worker_id": 0,
                         "task_hash": "faced6507dae8f2379e93ebe5a19a43f6159ccaa2502384e234f89b19ceadc32",
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "signature": "cab4cfe77afc2042d0ca16eb1433682f357940e82d6cd70f2e4b3c9a084d047c",
-                        "task_id": "576c6b4aff43"
+                        "timestamp": "2025-03-18T23:44:22.493474",
+                        "signature": "46451cc3b5c9c08b3e186d7748c97ba321deeed1563cfb06964a3d65ce5cd112",
+                        "task_id": "0026bbd49d1a"
                     },
                     {
                         "worker_id": 1,
                         "task_hash": "faced6507dae8f2379e93ebe5a19a43f6159ccaa2502384e234f89b19ceadc32",
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "signature": "13bbcd32d918bbe87a6476842e2ac7b8026d5d86b2534e5e25d7a230bcde48cb",
-                        "task_id": "576c6b4aff43"
+                        "timestamp": "2025-03-18T23:44:22.493474",
+                        "signature": "a0b810f0d09667f84ea56593f28749c5a9d5d69b2158559b36c1f0e40b711327",
+                        "task_id": "0026bbd49d1a"
                     },
                     {
                         "worker_id": 2,
                         "task_hash": "faced6507dae8f2379e93ebe5a19a43f6159ccaa2502384e234f89b19ceadc32",
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "signature": "47eaf85a178e5b393137706971ce56b3138167e9fed5b9b67d78480f758d5853",
-                        "task_id": "576c6b4aff43"
+                        "timestamp": "2025-03-18T23:44:22.493474",
+                        "signature": "206d57f3af34af0f48d079493392b6c298a6cddd40d0053f28b95a540d7a5d1c",
+                        "task_id": "0026bbd49d1a"
                     },
                     {
                         "worker_id": 3,
                         "task_hash": "faced6507dae8f2379e93ebe5a19a43f6159ccaa2502384e234f89b19ceadc32",
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "signature": "4b38a7ba33dba19d7bd8cfe5e9694dc7be6c34c7b0b6ce6b25eed7a3b1249d57",
-                        "task_id": "576c6b4aff43"
+                        "timestamp": "2025-03-18T23:44:22.493474",
+                        "signature": "66fd03eaa8b0530e12c3cc80081e29f98d3b5a22a0f7e13612a5d7fc1b01f864",
+                        "task_id": "0026bbd49d1a"
                     },
                     {
                         "worker_id": 4,
                         "task_hash": "faced6507dae8f2379e93ebe5a19a43f6159ccaa2502384e234f89b19ceadc32",
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "signature": "bf853b2ac1ad7f9d39c0961969453750558c2a70c297e618beb4502e48d97a8a",
-                        "task_id": "576c6b4aff43"
+                        "timestamp": "2025-03-18T23:44:22.493474",
+                        "signature": "21d96a698ecb7669f7e3abe59d70a4b51b09609add2c4d00db9abbf77a1140f8",
+                        "task_id": "0026bbd49d1a"
                     }
                 ],
-                "timestamp": "2025-03-18T23:02:45.456662"
+                "timestamp": "2025-03-18T23:44:22.493474"
             },
             {
                 "type": "task_evaluations",
-                "task_id": "576c6b4aff43",
+                "task_id": "0026bbd49d1a",
                 "evaluations": [
                     {
                         "worker_id": 0,
-                        "task_completion": 0.7781680982715964,
+                        "task_completion": 0.7657300095054885,
                         "status": "neutral",
-                        "r_coin_before": 7,
-                        "r_coin_after": 7,
+                        "r_coin_before": 21,
+                        "r_coin_after": 21,
                         "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "task_id": "576c6b4aff43"
+                        "timestamp": "2025-03-18T23:44:22.493474",
+                        "task_id": "0026bbd49d1a"
                     },
                     {
                         "worker_id": 1,
-                        "task_completion": 0.8909997208538308,
+                        "task_completion": 0.9430850139634798,
                         "status": "rewarded",
-                        "r_coin_before": 0,
-                        "r_coin_after": 10,
+                        "r_coin_before": 17,
+                        "r_coin_after": 27,
                         "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "task_id": "576c6b4aff43"
+                        "timestamp": "2025-03-18T23:44:22.493474",
+                        "task_id": "0026bbd49d1a"
                     },
                     {
                         "worker_id": 2,
-                        "task_completion": 0.4935276116309226,
-                        "status": "punished",
-                        "r_coin_before": 8,
-                        "r_coin_after": 6,
-                        "r_coin_change": -2,
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "task_id": "576c6b4aff43"
+                        "task_completion": 0.6401454600281413,
+                        "status": "neutral",
+                        "r_coin_before": 21,
+                        "r_coin_after": 21,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-18T23:44:22.493474",
+                        "task_id": "0026bbd49d1a"
                     },
                     {
                         "worker_id": 3,
-                        "task_completion": 0.824366451784075,
-                        "status": "rewarded",
-                        "r_coin_before": 18,
-                        "r_coin_after": 28,
-                        "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "task_id": "576c6b4aff43"
+                        "task_completion": 0.6357014037731508,
+                        "status": "neutral",
+                        "r_coin_before": 12,
+                        "r_coin_after": 12,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-18T23:44:22.493474",
+                        "task_id": "0026bbd49d1a"
                     },
                     {
                         "worker_id": 4,
-                        "task_completion": 0.9470033311397871,
-                        "status": "rewarded",
-                        "r_coin_before": 4,
-                        "r_coin_after": 14,
-                        "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "task_id": "576c6b4aff43"
+                        "task_completion": 0.7806010286789415,
+                        "status": "neutral",
+                        "r_coin_before": 8,
+                        "r_coin_after": 8,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-18T23:44:22.493474",
+                        "task_id": "0026bbd49d1a"
                     }
                 ],
-                "verifier_id": 3,
-                "timestamp": "2025-03-18T23:02:45.456662"
+                "verifier_id": 4,
+                "timestamp": "2025-03-18T23:44:22.493474"
             }
         ],
-        "timestamp": "2025-03-18T23:02:45.456662",
-        "previous_hash": "8b3ad902434f389e3acdd9100e61d365ad960dea41c8f5c98b6472c5020cb3a3",
-        "verifier_id": 3,
-        "hash": "2fcc311e1b2adf379063f041527709935bcb2bc48c1081a6408804881c6a84d6"
+        "timestamp": "2025-03-18T23:44:22.493474",
+        "previous_hash": "af84a296bef70bdcef02851bf2a78ae76dceeb46114c44ec53d2a152be33a051",
+        "verifier_id": 4,
+        "hash": "e16da7ad5826e6ed9baf6f367d8f3d477bcda7e625dd0fee5e031b6723e89613"
     },
     {
         "index": 3,
         "transactions": [
             {
                 "type": "task_submissions",
-                "task_id": "7d0a661b2b29",
+                "task_id": "6a20044f5fe2",
                 "submissions": [
                     {
                         "worker_id": 0,
                         "task_hash": "4c708de5aaabb769c7436959a163ad5b209e5273efd6ae8ed88d99f6eb4510e6",
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "signature": "0e4aa68f53cf957cbae2c2092e6d17a7c6a8b16256077d6aed31d64a349769df",
-                        "task_id": "7d0a661b2b29"
+                        "timestamp": "2025-03-18T23:44:22.494475",
+                        "signature": "24d6a6f9972170c71610627c6a590118fce47e8fd0ed177ef51b5e20fcaaaeee",
+                        "task_id": "6a20044f5fe2"
                     },
                     {
                         "worker_id": 1,
                         "task_hash": "4c708de5aaabb769c7436959a163ad5b209e5273efd6ae8ed88d99f6eb4510e6",
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "signature": "3da9dc3386014ac8cf55a6d879a93fd8ffb592a81f625cf479dc7a4efe5f7e8a",
-                        "task_id": "7d0a661b2b29"
+                        "timestamp": "2025-03-18T23:44:22.494475",
+                        "signature": "39872a554c2ed6b942eac512633a3fde3d4dc3b0cfea65b7fb5887fe4e204c3e",
+                        "task_id": "6a20044f5fe2"
                     },
                     {
                         "worker_id": 2,
                         "task_hash": "4c708de5aaabb769c7436959a163ad5b209e5273efd6ae8ed88d99f6eb4510e6",
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "signature": "4ab0c0d5c85c68cf64443493dcc1e6ecf3bfd7ad0b7f68a4c1322d800ede69e0",
-                        "task_id": "7d0a661b2b29"
+                        "timestamp": "2025-03-18T23:44:22.494475",
+                        "signature": "466ef949a0eded3b17e0394d8dae25a7ccde19beb3f0325d4cc3f85cc3845c18",
+                        "task_id": "6a20044f5fe2"
                     },
                     {
                         "worker_id": 3,
                         "task_hash": "4c708de5aaabb769c7436959a163ad5b209e5273efd6ae8ed88d99f6eb4510e6",
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "signature": "3082434ad3496dab8c66aab9a3e4803a0abc002eb9fbee259fd79c09619bbfb6",
-                        "task_id": "7d0a661b2b29"
+                        "timestamp": "2025-03-18T23:44:22.494475",
+                        "signature": "d49956801c17d38e01e2454dd730ddb9a094ec66a1b961dff0473613c1a0605a",
+                        "task_id": "6a20044f5fe2"
                     },
                     {
                         "worker_id": 4,
                         "task_hash": "4c708de5aaabb769c7436959a163ad5b209e5273efd6ae8ed88d99f6eb4510e6",
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "signature": "3b610cf771959b7cfb9b3920bd1ccc91e0dbde1584d754d36ba171e60bc14f48",
-                        "task_id": "7d0a661b2b29"
+                        "timestamp": "2025-03-18T23:44:22.494475",
+                        "signature": "1b6acf75d77fcd853b27fa27a3aed5847749ee52469adf272e84095d642365f9",
+                        "task_id": "6a20044f5fe2"
                     }
                 ],
-                "timestamp": "2025-03-18T23:02:45.456662"
+                "timestamp": "2025-03-18T23:44:22.494475"
             },
             {
                 "type": "task_evaluations",
-                "task_id": "7d0a661b2b29",
+                "task_id": "6a20044f5fe2",
                 "evaluations": [
                     {
                         "worker_id": 0,
-                        "task_completion": 0.8844826218022469,
-                        "status": "rewarded",
-                        "r_coin_before": 6,
-                        "r_coin_after": 16,
-                        "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "task_id": "7d0a661b2b29"
+                        "task_completion": 0.7405556475717647,
+                        "status": "neutral",
+                        "r_coin_before": 21,
+                        "r_coin_after": 21,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-18T23:44:22.494475",
+                        "task_id": "6a20044f5fe2"
                     },
                     {
                         "worker_id": 1,
-                        "task_completion": 0.8285954898840918,
-                        "status": "rewarded",
-                        "r_coin_before": 6,
+                        "task_completion": 0.7137358312894152,
+                        "status": "neutral",
+                        "r_coin_before": 16,
                         "r_coin_after": 16,
-                        "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "task_id": "7d0a661b2b29"
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-18T23:44:22.494475",
+                        "task_id": "6a20044f5fe2"
                     },
                     {
                         "worker_id": 2,
-                        "task_completion": 0.6349154997666094,
-                        "status": "neutral",
-                        "r_coin_before": 5,
-                        "r_coin_after": 5,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "task_id": "7d0a661b2b29"
+                        "task_completion": 0.8531939602905338,
+                        "status": "rewarded",
+                        "r_coin_before": 17,
+                        "r_coin_after": 27,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.494475",
+                        "task_id": "6a20044f5fe2"
                     },
                     {
                         "worker_id": 3,
-                        "task_completion": 0.5150444490858355,
-                        "status": "neutral",
-                        "r_coin_before": 5,
-                        "r_coin_after": 5,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "task_id": "7d0a661b2b29"
+                        "task_completion": 0.945690726506998,
+                        "status": "rewarded",
+                        "r_coin_before": 8,
+                        "r_coin_after": 18,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.494475",
+                        "task_id": "6a20044f5fe2"
                     },
                     {
                         "worker_id": 4,
-                        "task_completion": 0.6330260987121364,
+                        "task_completion": 0.7624258923509974,
                         "status": "neutral",
-                        "r_coin_before": 7,
-                        "r_coin_after": 7,
+                        "r_coin_before": 4,
+                        "r_coin_after": 4,
                         "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.456662",
-                        "task_id": "7d0a661b2b29"
+                        "timestamp": "2025-03-18T23:44:22.494475",
+                        "task_id": "6a20044f5fe2"
                     }
                 ],
-                "verifier_id": 3,
-                "timestamp": "2025-03-18T23:02:45.456662"
+                "verifier_id": 4,
+                "timestamp": "2025-03-18T23:44:22.494475"
             }
         ],
-        "timestamp": "2025-03-18T23:02:45.456662",
-        "previous_hash": "2fcc311e1b2adf379063f041527709935bcb2bc48c1081a6408804881c6a84d6",
-        "verifier_id": 3,
-        "hash": "ed63347505ad2ed2a2764a0b7197929b9d355a707b64c545fc4b88272d944cc2"
+        "timestamp": "2025-03-18T23:44:22.494475",
+        "previous_hash": "e16da7ad5826e6ed9baf6f367d8f3d477bcda7e625dd0fee5e031b6723e89613",
+        "verifier_id": 4,
+        "hash": "7fae06c8923b84a9402ee569b24ab637d0c83651ef5da20e6c7a22124508850b"
     },
     {
         "index": 4,
         "transactions": [
             {
                 "type": "task_submissions",
-                "task_id": "a7a04b36dad4",
+                "task_id": "1fbec97ea433",
                 "submissions": [
                     {
                         "worker_id": 0,
                         "task_hash": "d7eeb334006d091ea9cd43ab22292a47aecddeff8e53584524db07cbec582d64",
-                        "timestamp": "2025-03-18T23:02:45.457661",
-                        "signature": "94c44fc74bcc0fef30affa27f84219bf553cda146b6625087613fe3a7b8172bb",
-                        "task_id": "a7a04b36dad4"
+                        "timestamp": "2025-03-18T23:44:22.495474",
+                        "signature": "71be054a358b4758c21e0f0d957db8ae6cb6380f0364cb96b677aaebacf8e8cb",
+                        "task_id": "1fbec97ea433"
                     },
                     {
                         "worker_id": 1,
                         "task_hash": "d7eeb334006d091ea9cd43ab22292a47aecddeff8e53584524db07cbec582d64",
-                        "timestamp": "2025-03-18T23:02:45.457661",
-                        "signature": "2c1ef9b3daa893c9f130c37b864d222d894a49334426327945af2747a9de90fc",
-                        "task_id": "a7a04b36dad4"
+                        "timestamp": "2025-03-18T23:44:22.495474",
+                        "signature": "4da0b364f6a86a63a9ac35951035a42a75371a04128b8621ffdeba78d48ec122",
+                        "task_id": "1fbec97ea433"
                     },
                     {
                         "worker_id": 2,
                         "task_hash": "d7eeb334006d091ea9cd43ab22292a47aecddeff8e53584524db07cbec582d64",
-                        "timestamp": "2025-03-18T23:02:45.457661",
-                        "signature": "ff640bbc36496ea0ba3c42b7b34a803e4910e9f56985d3f5bd22028e7791682b",
-                        "task_id": "a7a04b36dad4"
+                        "timestamp": "2025-03-18T23:44:22.495474",
+                        "signature": "97ad1e6e7386df4148b706b06f3e15b7be6dd5bd053ac155ba86feaff77f8d23",
+                        "task_id": "1fbec97ea433"
                     },
                     {
                         "worker_id": 3,
                         "task_hash": "d7eeb334006d091ea9cd43ab22292a47aecddeff8e53584524db07cbec582d64",
-                        "timestamp": "2025-03-18T23:02:45.457661",
-                        "signature": "ff99ccc7aa5b67d610b7794149bb2c7795764cc568102c426ed67a4d1ab55903",
-                        "task_id": "a7a04b36dad4"
+                        "timestamp": "2025-03-18T23:44:22.495474",
+                        "signature": "304109ffa4fef6dec2854c5fc7789b040b131caeacd0c9f27eaf1f78632e4721",
+                        "task_id": "1fbec97ea433"
                     },
                     {
                         "worker_id": 4,
                         "task_hash": "d7eeb334006d091ea9cd43ab22292a47aecddeff8e53584524db07cbec582d64",
-                        "timestamp": "2025-03-18T23:02:45.457661",
-                        "signature": "68836fa02d37ea81fb6fa7223b930f2b017267a9c734a4bb5ab4ed71c9601b23",
-                        "task_id": "a7a04b36dad4"
+                        "timestamp": "2025-03-18T23:44:22.495474",
+                        "signature": "48618c6671012528c8650dc8eb9ef3d2d18265b7984e383afa927452d7007a19",
+                        "task_id": "1fbec97ea433"
                     }
                 ],
-                "timestamp": "2025-03-18T23:02:45.457661"
+                "timestamp": "2025-03-18T23:44:22.495474"
             },
             {
                 "type": "task_evaluations",
-                "task_id": "a7a04b36dad4",
+                "task_id": "1fbec97ea433",
                 "evaluations": [
                     {
                         "worker_id": 0,
-                        "task_completion": 0.6570557912390024,
-                        "status": "neutral",
-                        "r_coin_before": 10,
-                        "r_coin_after": 10,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.457661",
-                        "task_id": "a7a04b36dad4"
+                        "task_completion": 0.8997653343886491,
+                        "status": "rewarded",
+                        "r_coin_before": 18,
+                        "r_coin_after": 28,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.495474",
+                        "task_id": "1fbec97ea433"
                     },
                     {
                         "worker_id": 1,
-                        "task_completion": 0.9063313854581956,
+                        "task_completion": 0.9019353196812856,
                         "status": "rewarded",
-                        "r_coin_before": 16,
-                        "r_coin_after": 26,
+                        "r_coin_before": 12,
+                        "r_coin_after": 22,
                         "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.457661",
-                        "task_id": "a7a04b36dad4"
+                        "timestamp": "2025-03-18T23:44:22.495474",
+                        "task_id": "1fbec97ea433"
                     },
                     {
                         "worker_id": 2,
-                        "task_completion": 0.9321796676043708,
+                        "task_completion": 0.8278124745028408,
                         "status": "rewarded",
-                        "r_coin_before": 5,
-                        "r_coin_after": 15,
+                        "r_coin_before": 14,
+                        "r_coin_after": 24,
                         "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.457661",
-                        "task_id": "a7a04b36dad4"
+                        "timestamp": "2025-03-18T23:44:22.495474",
+                        "task_id": "1fbec97ea433"
                     },
                     {
                         "worker_id": 3,
-                        "task_completion": 0.8950903971736706,
+                        "task_completion": 0.9819057189970513,
                         "status": "rewarded",
-                        "r_coin_before": 7,
-                        "r_coin_after": 17,
+                        "r_coin_before": 3,
+                        "r_coin_after": 13,
                         "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.457661",
-                        "task_id": "a7a04b36dad4"
+                        "timestamp": "2025-03-18T23:44:22.495474",
+                        "task_id": "1fbec97ea433"
                     },
                     {
                         "worker_id": 4,
-                        "task_completion": 0.7455031728029247,
+                        "task_completion": 0.7561489699359911,
                         "status": "neutral",
-                        "r_coin_before": 0,
-                        "r_coin_after": 0,
+                        "r_coin_before": 9,
+                        "r_coin_after": 9,
                         "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.457661",
-                        "task_id": "a7a04b36dad4"
+                        "timestamp": "2025-03-18T23:44:22.495474",
+                        "task_id": "1fbec97ea433"
                     }
                 ],
-                "verifier_id": 3,
-                "timestamp": "2025-03-18T23:02:45.457661"
+                "verifier_id": 1,
+                "timestamp": "2025-03-18T23:44:22.495474"
             }
         ],
-        "timestamp": "2025-03-18T23:02:45.457661",
-        "previous_hash": "ed63347505ad2ed2a2764a0b7197929b9d355a707b64c545fc4b88272d944cc2",
-        "verifier_id": 3,
-        "hash": "b67fedd4188b164d5038e84d020d545116937b8d674c0b3235dd68ab1b125033"
+        "timestamp": "2025-03-18T23:44:22.495474",
+        "previous_hash": "7fae06c8923b84a9402ee569b24ab637d0c83651ef5da20e6c7a22124508850b",
+        "verifier_id": 1,
+        "hash": "c8bbeb9750966e83d6ce957a0e6fb979cf7b37aa89286859ebe65226422434d5"
     },
     {
         "index": 5,
         "transactions": [
             {
                 "type": "task_submissions",
-                "task_id": "8544b2f5faee",
+                "task_id": "1dd43158fcf0",
                 "submissions": [
                     {
                         "worker_id": 0,
                         "task_hash": "7ee67a37f486cf8d9d3c44c5fe7219cc119884c65e765e4b470fe6a2ee88fac7",
-                        "timestamp": "2025-03-18T23:02:45.458662",
-                        "signature": "8ec43affa29b7a0ca8aa8f0263e66a7be763da889f8a99d347cc656ef8d6c0db",
-                        "task_id": "8544b2f5faee"
+                        "timestamp": "2025-03-18T23:44:22.496474",
+                        "signature": "d46b671d7866108d3b9fa9c7d0569189ed93f59b928f86972630c5f6094c7492",
+                        "task_id": "1dd43158fcf0"
                     },
                     {
                         "worker_id": 1,
                         "task_hash": "7ee67a37f486cf8d9d3c44c5fe7219cc119884c65e765e4b470fe6a2ee88fac7",
-                        "timestamp": "2025-03-18T23:02:45.458662",
-                        "signature": "a33700e2f45b9dc737233d9b633648c122129601888bc9e7cf7cdfba4b444732",
-                        "task_id": "8544b2f5faee"
+                        "timestamp": "2025-03-18T23:44:22.496474",
+                        "signature": "4179f20c51c3fc6017799dfa4f43b2e5799511a492226b44cdd762ce390946e1",
+                        "task_id": "1dd43158fcf0"
                     },
                     {
                         "worker_id": 2,
                         "task_hash": "7ee67a37f486cf8d9d3c44c5fe7219cc119884c65e765e4b470fe6a2ee88fac7",
-                        "timestamp": "2025-03-18T23:02:45.458662",
-                        "signature": "e727091e2bd7e5490af5eed6a5c0122d4fc30f0b08f9af49e059226c283cc9c6",
-                        "task_id": "8544b2f5faee"
+                        "timestamp": "2025-03-18T23:44:22.496474",
+                        "signature": "0095c777e7008e1742e3301f7c659eecefc4492fc2470ccf901d01d1a694b620",
+                        "task_id": "1dd43158fcf0"
                     },
                     {
                         "worker_id": 3,
                         "task_hash": "7ee67a37f486cf8d9d3c44c5fe7219cc119884c65e765e4b470fe6a2ee88fac7",
-                        "timestamp": "2025-03-18T23:02:45.458662",
-                        "signature": "bbd7d4b76afff1f5f9cea5485739d0d928ca79105124c44dc8412169e49adbb5",
-                        "task_id": "8544b2f5faee"
+                        "timestamp": "2025-03-18T23:44:22.496474",
+                        "signature": "29e67633cca8650710461198350a492d365db55bed4faf64a7b37114ecc4f5b4",
+                        "task_id": "1dd43158fcf0"
                     },
                     {
                         "worker_id": 4,
                         "task_hash": "7ee67a37f486cf8d9d3c44c5fe7219cc119884c65e765e4b470fe6a2ee88fac7",
-                        "timestamp": "2025-03-18T23:02:45.458662",
-                        "signature": "1fe2ee10ef8d8fa45a45cc3bcca5d9ccf21c82c20cd1ed68bb8ae653059f5ba3",
-                        "task_id": "8544b2f5faee"
+                        "timestamp": "2025-03-18T23:44:22.496474",
+                        "signature": "6f90075e5bec7f9987f0a28026a2a7cdd388a487532be3b20e72c83e6b0db45b",
+                        "task_id": "1dd43158fcf0"
                     }
                 ],
-                "timestamp": "2025-03-18T23:02:45.458662"
+                "timestamp": "2025-03-18T23:44:22.496474"
             },
             {
                 "type": "task_evaluations",
-                "task_id": "8544b2f5faee",
+                "task_id": "1dd43158fcf0",
                 "evaluations": [
                     {
                         "worker_id": 0,
-                        "task_completion": 0.6650979062292011,
+                        "task_completion": 0.558241254486141,
                         "status": "neutral",
-                        "r_coin_before": 6,
-                        "r_coin_after": 6,
+                        "r_coin_before": 10,
+                        "r_coin_after": 10,
                         "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.458662",
-                        "task_id": "8544b2f5faee"
+                        "timestamp": "2025-03-18T23:44:22.496474",
+                        "task_id": "1dd43158fcf0"
                     },
                     {
                         "worker_id": 1,
-                        "task_completion": 0.7847927450583875,
-                        "status": "neutral",
-                        "r_coin_before": 0,
-                        "r_coin_after": 0,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.458662",
-                        "task_id": "8544b2f5faee"
+                        "task_completion": 0.9315641611565152,
+                        "status": "rewarded",
+                        "r_coin_before": 10,
+                        "r_coin_after": 20,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.496474",
+                        "task_id": "1dd43158fcf0"
                     },
                     {
                         "worker_id": 2,
-                        "task_completion": 0.9327714868065895,
+                        "task_completion": 0.8574291334077531,
+                        "status": "rewarded",
+                        "r_coin_before": 20,
+                        "r_coin_after": 30,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.496474",
+                        "task_id": "1dd43158fcf0"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_completion": 0.9504168948841323,
                         "status": "rewarded",
                         "r_coin_before": 5,
                         "r_coin_after": 15,
                         "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.458662",
-                        "task_id": "8544b2f5faee"
-                    },
-                    {
-                        "worker_id": 3,
-                        "task_completion": 0.7097191169948525,
-                        "status": "neutral",
-                        "r_coin_before": 19,
-                        "r_coin_after": 19,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.458662",
-                        "task_id": "8544b2f5faee"
+                        "timestamp": "2025-03-18T23:44:22.496474",
+                        "task_id": "1dd43158fcf0"
                     },
                     {
                         "worker_id": 4,
-                        "task_completion": 0.7397131119224737,
+                        "task_completion": 0.5636721368402354,
                         "status": "neutral",
-                        "r_coin_before": 0,
-                        "r_coin_after": 0,
+                        "r_coin_before": 3,
+                        "r_coin_after": 3,
                         "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.458662",
-                        "task_id": "8544b2f5faee"
+                        "timestamp": "2025-03-18T23:44:22.496474",
+                        "task_id": "1dd43158fcf0"
                     }
                 ],
-                "verifier_id": 3,
-                "timestamp": "2025-03-18T23:02:45.458662"
+                "verifier_id": 2,
+                "timestamp": "2025-03-18T23:44:22.496474"
             }
         ],
-        "timestamp": "2025-03-18T23:02:45.458662",
-        "previous_hash": "b67fedd4188b164d5038e84d020d545116937b8d674c0b3235dd68ab1b125033",
-        "verifier_id": 3,
-        "hash": "a9512448e23e52915173e949dbdb2c7e0281efe65ef10b713ea9da9d0d895887"
+        "timestamp": "2025-03-18T23:44:22.496474",
+        "previous_hash": "c8bbeb9750966e83d6ce957a0e6fb979cf7b37aa89286859ebe65226422434d5",
+        "verifier_id": 2,
+        "hash": "19f4fc4705ff026464b12ca9a9e9f0a08c6f05de607443131be7c8f8f78d64cb"
     },
     {
         "index": 6,
         "transactions": [
             {
                 "type": "task_submissions",
-                "task_id": "35ad6b942002",
+                "task_id": "26d0061a789a",
                 "submissions": [
                     {
                         "worker_id": 0,
                         "task_hash": "fcf238c50719ecbb85376a85ed323cfbc17e4e59f88b00bbb20fb49cf6ebf63b",
-                        "timestamp": "2025-03-18T23:02:45.459661",
-                        "signature": "b861230af7e36a44dd8d61cffe5177cc6027827322bda5cb6b6ad2e5507f04d8",
-                        "task_id": "35ad6b942002"
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "signature": "2489d326191ea1c17a804d65c512e809c052bcb6f820ebf7af90527cd540a875",
+                        "task_id": "26d0061a789a"
                     },
                     {
                         "worker_id": 1,
                         "task_hash": "fcf238c50719ecbb85376a85ed323cfbc17e4e59f88b00bbb20fb49cf6ebf63b",
-                        "timestamp": "2025-03-18T23:02:45.459661",
-                        "signature": "ab13a21e815563ca740cea5eb874676f9feb1274b57b14e0fa297ab20698151d",
-                        "task_id": "35ad6b942002"
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "signature": "79a349859651c23ff4776300f389686d55912f0b506e79b254c3a8456d9bc8de",
+                        "task_id": "26d0061a789a"
                     },
                     {
                         "worker_id": 2,
                         "task_hash": "fcf238c50719ecbb85376a85ed323cfbc17e4e59f88b00bbb20fb49cf6ebf63b",
-                        "timestamp": "2025-03-18T23:02:45.459661",
-                        "signature": "99b2e892acdce76b4cf6384ed1fa7861c2c129524c1abcfe48de05ce68ec8c08",
-                        "task_id": "35ad6b942002"
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "signature": "895d785f1b16bb1e4ef1c3c471796b0a3ccecc12f591d102022ad61ba572a27e",
+                        "task_id": "26d0061a789a"
                     },
                     {
                         "worker_id": 3,
                         "task_hash": "fcf238c50719ecbb85376a85ed323cfbc17e4e59f88b00bbb20fb49cf6ebf63b",
-                        "timestamp": "2025-03-18T23:02:45.459661",
-                        "signature": "d460f4a6aeeac51f717adfb9c150ed1c38d61a68c0995735a60c2448fe1dfb76",
-                        "task_id": "35ad6b942002"
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "signature": "59f145c653ec7237d05bad750b96a0aabd0dbd3652c04974fcf3cdc87b5a179d",
+                        "task_id": "26d0061a789a"
                     },
                     {
                         "worker_id": 4,
                         "task_hash": "fcf238c50719ecbb85376a85ed323cfbc17e4e59f88b00bbb20fb49cf6ebf63b",
-                        "timestamp": "2025-03-18T23:02:45.459661",
-                        "signature": "f1a1945e580ffba499f97d97e0a0b8ed9143c77c237af499e3021556a94a00c6",
-                        "task_id": "35ad6b942002"
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "signature": "b874ee377d6b393a913dbfc7832454b1ba0593c940600282c6133dbd2e1bb4b3",
+                        "task_id": "26d0061a789a"
                     }
                 ],
-                "timestamp": "2025-03-18T23:02:45.459661"
+                "timestamp": "2025-03-18T23:44:22.497475"
             },
             {
                 "type": "task_evaluations",
-                "task_id": "35ad6b942002",
+                "task_id": "26d0061a789a",
                 "evaluations": [
                     {
                         "worker_id": 0,
-                        "task_completion": 0.6781140491560659,
-                        "status": "neutral",
-                        "r_coin_before": 3,
-                        "r_coin_after": 3,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.459661",
-                        "task_id": "35ad6b942002"
-                    },
-                    {
-                        "worker_id": 1,
-                        "task_completion": 0.6406219109678555,
-                        "status": "neutral",
-                        "r_coin_before": 0,
-                        "r_coin_after": 0,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.459661",
-                        "task_id": "35ad6b942002"
-                    },
-                    {
-                        "worker_id": 2,
-                        "task_completion": 0.7092894579107403,
-                        "status": "neutral",
-                        "r_coin_before": 14,
-                        "r_coin_after": 14,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.459661",
-                        "task_id": "35ad6b942002"
-                    },
-                    {
-                        "worker_id": 3,
-                        "task_completion": 0.6381874528933198,
-                        "status": "neutral",
-                        "r_coin_before": 0,
-                        "r_coin_after": 0,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.460664",
-                        "task_id": "35ad6b942002"
-                    },
-                    {
-                        "worker_id": 4,
-                        "task_completion": 0.9506808328655183,
+                        "task_completion": 0.928075953122274,
                         "status": "rewarded",
                         "r_coin_before": 0,
                         "r_coin_after": 10,
                         "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.460664",
-                        "task_id": "35ad6b942002"
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "task_id": "26d0061a789a"
+                    },
+                    {
+                        "worker_id": 1,
+                        "task_completion": 0.8366308384298634,
+                        "status": "rewarded",
+                        "r_coin_before": 5,
+                        "r_coin_after": 15,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "task_id": "26d0061a789a"
+                    },
+                    {
+                        "worker_id": 2,
+                        "task_completion": 0.935400659475096,
+                        "status": "rewarded",
+                        "r_coin_before": 12,
+                        "r_coin_after": 22,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "task_id": "26d0061a789a"
+                    },
+                    {
+                        "worker_id": 3,
+                        "task_completion": 0.5994651779519338,
+                        "status": "neutral",
+                        "r_coin_before": 12,
+                        "r_coin_after": 12,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "task_id": "26d0061a789a"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_completion": 0.9388063690752633,
+                        "status": "rewarded",
+                        "r_coin_before": 3,
+                        "r_coin_after": 13,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "task_id": "26d0061a789a"
                     }
                 ],
-                "verifier_id": 3,
-                "timestamp": "2025-03-18T23:02:45.460664"
+                "verifier_id": 1,
+                "timestamp": "2025-03-18T23:44:22.497475"
             }
         ],
-        "timestamp": "2025-03-18T23:02:45.460664",
-        "previous_hash": "a9512448e23e52915173e949dbdb2c7e0281efe65ef10b713ea9da9d0d895887",
-        "verifier_id": 3,
-        "hash": "353a190e82b3edc64a00eff22cabfdbafd7fade1bbd048bf57f7832036713670"
+        "timestamp": "2025-03-18T23:44:22.497475",
+        "previous_hash": "19f4fc4705ff026464b12ca9a9e9f0a08c6f05de607443131be7c8f8f78d64cb",
+        "verifier_id": 1,
+        "hash": "3bb011a4470b6dac135abc802a22526ace84b786ade9a9bce7403de10b1c8cc2"
     },
     {
         "index": 7,
         "transactions": [
             {
                 "type": "task_submissions",
-                "task_id": "4ef07cddb5ba",
+                "task_id": "3723f97a8d08",
                 "submissions": [
                     {
                         "worker_id": 0,
                         "task_hash": "925cf006ff7d3505295450267f4b0cbe0f6bcced2c11a7c144db5ca04a3e7b7d",
-                        "timestamp": "2025-03-18T23:02:45.460664",
-                        "signature": "53b552084dc37c43ff8db68ebc68d7052b4527b7f3252dbdc3a4fe2707ca3812",
-                        "task_id": "4ef07cddb5ba"
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "signature": "0a145b19e681008192716e95b8d1024f1d06adb1a93ec030901d9d12bdb43610",
+                        "task_id": "3723f97a8d08"
                     },
                     {
                         "worker_id": 1,
                         "task_hash": "925cf006ff7d3505295450267f4b0cbe0f6bcced2c11a7c144db5ca04a3e7b7d",
-                        "timestamp": "2025-03-18T23:02:45.460664",
-                        "signature": "5977fec97cb5cb4a991724138f6c410062e3f9d653152d762d382c44bd4ee980",
-                        "task_id": "4ef07cddb5ba"
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "signature": "ee2ca871b8763f6e4d850c8c79c2a79d05bf5bb1f8270d863dab6ba97fa3db0d",
+                        "task_id": "3723f97a8d08"
                     },
                     {
                         "worker_id": 2,
                         "task_hash": "925cf006ff7d3505295450267f4b0cbe0f6bcced2c11a7c144db5ca04a3e7b7d",
-                        "timestamp": "2025-03-18T23:02:45.460664",
-                        "signature": "e022ac34246d47b79b14df4a56098b53abd53143c5dedb3e9ced2bc24467dfef",
-                        "task_id": "4ef07cddb5ba"
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "signature": "a10f7e4624315f5f5478146244b9fad3acf77203a860a076e30dcc056c0ad2e6",
+                        "task_id": "3723f97a8d08"
                     },
                     {
                         "worker_id": 3,
                         "task_hash": "925cf006ff7d3505295450267f4b0cbe0f6bcced2c11a7c144db5ca04a3e7b7d",
-                        "timestamp": "2025-03-18T23:02:45.460664",
-                        "signature": "a1e71d7ba6aca51336713d78222434de2e85ef00b91d931ef125291af9acefb8",
-                        "task_id": "4ef07cddb5ba"
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "signature": "7c711d5ffc32fb382c7ec1001fb5af06dcf4f18b3c87767b3bde3aebd3bc8467",
+                        "task_id": "3723f97a8d08"
                     },
                     {
                         "worker_id": 4,
                         "task_hash": "925cf006ff7d3505295450267f4b0cbe0f6bcced2c11a7c144db5ca04a3e7b7d",
-                        "timestamp": "2025-03-18T23:02:45.460664",
-                        "signature": "3d26b2aecaa7b70d85066c9d681ca87ec2bf21a763ba06407b917db8bcd58512",
-                        "task_id": "4ef07cddb5ba"
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "signature": "1abfee6f8646e707e78ef5278840008f2e14f675f9241b93b652285850643a5f",
+                        "task_id": "3723f97a8d08"
                     }
                 ],
-                "timestamp": "2025-03-18T23:02:45.460664"
+                "timestamp": "2025-03-18T23:44:22.497475"
             },
             {
                 "type": "task_evaluations",
-                "task_id": "4ef07cddb5ba",
+                "task_id": "3723f97a8d08",
                 "evaluations": [
                     {
                         "worker_id": 0,
-                        "task_completion": 0.7539720275254598,
+                        "task_completion": 0.7653646466883036,
                         "status": "neutral",
-                        "r_coin_before": 2,
-                        "r_coin_after": 2,
+                        "r_coin_before": 7,
+                        "r_coin_after": 7,
                         "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.460664",
-                        "task_id": "4ef07cddb5ba"
+                        "timestamp": "2025-03-18T23:44:22.497475",
+                        "task_id": "3723f97a8d08"
                     },
                     {
                         "worker_id": 1,
-                        "task_completion": 0.897959208965623,
-                        "status": "rewarded",
-                        "r_coin_before": 0,
-                        "r_coin_after": 10,
-                        "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.460664",
-                        "task_id": "4ef07cddb5ba"
+                        "task_completion": 0.7000811627701293,
+                        "status": "neutral",
+                        "r_coin_before": 13,
+                        "r_coin_after": 13,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "task_id": "3723f97a8d08"
                     },
                     {
                         "worker_id": 2,
-                        "task_completion": 0.6601353051954724,
-                        "status": "neutral",
-                        "r_coin_before": 3,
-                        "r_coin_after": 3,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.460664",
-                        "task_id": "4ef07cddb5ba"
+                        "task_completion": 0.969051623993725,
+                        "status": "rewarded",
+                        "r_coin_before": 20,
+                        "r_coin_after": 30,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "task_id": "3723f97a8d08"
                     },
                     {
                         "worker_id": 3,
-                        "task_completion": 0.8514572459342998,
+                        "task_completion": 0.8448820810722412,
+                        "status": "rewarded",
+                        "r_coin_before": 7,
+                        "r_coin_after": 17,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "task_id": "3723f97a8d08"
+                    },
+                    {
+                        "worker_id": 4,
+                        "task_completion": 0.8945401659062148,
                         "status": "rewarded",
                         "r_coin_before": 4,
                         "r_coin_after": 14,
                         "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.460664",
-                        "task_id": "4ef07cddb5ba"
-                    },
-                    {
-                        "worker_id": 4,
-                        "task_completion": 0.7461498237978622,
-                        "status": "neutral",
-                        "r_coin_before": 1,
-                        "r_coin_after": 1,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.460664",
-                        "task_id": "4ef07cddb5ba"
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "task_id": "3723f97a8d08"
                     }
                 ],
-                "verifier_id": 3,
-                "timestamp": "2025-03-18T23:02:45.460664"
+                "verifier_id": 1,
+                "timestamp": "2025-03-18T23:44:22.498475"
             }
         ],
-        "timestamp": "2025-03-18T23:02:45.460664",
-        "previous_hash": "353a190e82b3edc64a00eff22cabfdbafd7fade1bbd048bf57f7832036713670",
-        "verifier_id": 3,
-        "hash": "6951627b0edbcd89efff4ee0316382de1ec8a2a7966efcf52c78a0930def2cd3"
+        "timestamp": "2025-03-18T23:44:22.498475",
+        "previous_hash": "3bb011a4470b6dac135abc802a22526ace84b786ade9a9bce7403de10b1c8cc2",
+        "verifier_id": 1,
+        "hash": "96ef31c05ce4368e885ac66936ae33708635f26511445f62f955c37c138bab0d"
     },
     {
         "index": 8,
         "transactions": [
             {
                 "type": "task_submissions",
-                "task_id": "fb2ae70dc23e",
+                "task_id": "fcf9d1d3dddf",
                 "submissions": [
                     {
                         "worker_id": 0,
                         "task_hash": "bea91c191108660c076ee475f2b2bc9e8135b57103b457440d7a17dc5299dedc",
-                        "timestamp": "2025-03-18T23:02:45.461663",
-                        "signature": "87b2a7903a7e114d8ed192e863d99ebad73e27398a911846469a4d25d07f90e3",
-                        "task_id": "fb2ae70dc23e"
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "signature": "4b8854a56fdf5d09f1afc69be73a97138dc2ce987512ad110a21fd6677973728",
+                        "task_id": "fcf9d1d3dddf"
                     },
                     {
                         "worker_id": 1,
                         "task_hash": "bea91c191108660c076ee475f2b2bc9e8135b57103b457440d7a17dc5299dedc",
-                        "timestamp": "2025-03-18T23:02:45.461663",
-                        "signature": "f65150e00d9f95b72243a3ee0d179e6b14f4289579d32fee036343e0311e9624",
-                        "task_id": "fb2ae70dc23e"
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "signature": "cab82d11d0b85ccf9641b47372b2c1bc30cf2944cd377feca52e593ee7784439",
+                        "task_id": "fcf9d1d3dddf"
                     },
                     {
                         "worker_id": 2,
                         "task_hash": "bea91c191108660c076ee475f2b2bc9e8135b57103b457440d7a17dc5299dedc",
-                        "timestamp": "2025-03-18T23:02:45.461663",
-                        "signature": "94abaf557f5e40e1df1d8d2e88b9f7651425e8ea68460177a3d88707d666a8ad",
-                        "task_id": "fb2ae70dc23e"
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "signature": "51eb6855f0b15afb13cbdb94ab5be014bc4f23dbfadabe9f03163d56b27dfe44",
+                        "task_id": "fcf9d1d3dddf"
                     },
                     {
                         "worker_id": 3,
                         "task_hash": "bea91c191108660c076ee475f2b2bc9e8135b57103b457440d7a17dc5299dedc",
-                        "timestamp": "2025-03-18T23:02:45.461663",
-                        "signature": "f2fd0e2948024be4c28975fb4da4d4c5cb3585f872958725007e18530140f93f",
-                        "task_id": "fb2ae70dc23e"
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "signature": "39149f38632ae81e9eed8033b59d808eaca689983cd614a536eb2a034d2d9fa9",
+                        "task_id": "fcf9d1d3dddf"
                     },
                     {
                         "worker_id": 4,
                         "task_hash": "bea91c191108660c076ee475f2b2bc9e8135b57103b457440d7a17dc5299dedc",
-                        "timestamp": "2025-03-18T23:02:45.461663",
-                        "signature": "7c64c21a76bc5d26b657d5148367561414ad22e98cdfeacb33d4fd7ef37ca1d2",
-                        "task_id": "fb2ae70dc23e"
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "signature": "938da25b9b080c461b1b686482ec3f91c51312b467bce095c03a949c16fc03a4",
+                        "task_id": "fcf9d1d3dddf"
                     }
                 ],
-                "timestamp": "2025-03-18T23:02:45.461663"
+                "timestamp": "2025-03-18T23:44:22.498475"
             },
             {
                 "type": "task_evaluations",
-                "task_id": "fb2ae70dc23e",
+                "task_id": "fcf9d1d3dddf",
                 "evaluations": [
                     {
                         "worker_id": 0,
-                        "task_completion": 0.8577663395082283,
-                        "status": "rewarded",
-                        "r_coin_before": 0,
-                        "r_coin_after": 10,
-                        "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.461663",
-                        "task_id": "fb2ae70dc23e"
+                        "task_completion": 0.6102848286901896,
+                        "status": "neutral",
+                        "r_coin_before": 4,
+                        "r_coin_after": 4,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "task_id": "fcf9d1d3dddf"
                     },
                     {
                         "worker_id": 1,
-                        "task_completion": 0.772249583415104,
-                        "status": "neutral",
-                        "r_coin_before": 7,
-                        "r_coin_after": 7,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.461663",
-                        "task_id": "fb2ae70dc23e"
+                        "task_completion": 0.9542873411096723,
+                        "status": "rewarded",
+                        "r_coin_before": 16,
+                        "r_coin_after": 26,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "task_id": "fcf9d1d3dddf"
                     },
                     {
                         "worker_id": 2,
-                        "task_completion": 0.9915584606972302,
-                        "status": "rewarded",
-                        "r_coin_before": 1,
-                        "r_coin_after": 11,
-                        "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.461663",
-                        "task_id": "fb2ae70dc23e"
+                        "task_completion": 0.5382767645371954,
+                        "status": "neutral",
+                        "r_coin_before": 3,
+                        "r_coin_after": 3,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "task_id": "fcf9d1d3dddf"
                     },
                     {
                         "worker_id": 3,
-                        "task_completion": 0.9548533503077125,
+                        "task_completion": 0.8087851310093891,
                         "status": "rewarded",
-                        "r_coin_before": 8,
-                        "r_coin_after": 18,
+                        "r_coin_before": 15,
+                        "r_coin_after": 25,
                         "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.461663",
-                        "task_id": "fb2ae70dc23e"
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "task_id": "fcf9d1d3dddf"
                     },
                     {
                         "worker_id": 4,
-                        "task_completion": 0.7388969172271215,
+                        "task_completion": 0.6075075938877941,
                         "status": "neutral",
-                        "r_coin_before": 1,
-                        "r_coin_after": 1,
+                        "r_coin_before": 6,
+                        "r_coin_after": 6,
                         "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.461663",
-                        "task_id": "fb2ae70dc23e"
+                        "timestamp": "2025-03-18T23:44:22.498475",
+                        "task_id": "fcf9d1d3dddf"
                     }
                 ],
-                "verifier_id": 3,
-                "timestamp": "2025-03-18T23:02:45.461663"
+                "verifier_id": 2,
+                "timestamp": "2025-03-18T23:44:22.498475"
             }
         ],
-        "timestamp": "2025-03-18T23:02:45.461663",
-        "previous_hash": "6951627b0edbcd89efff4ee0316382de1ec8a2a7966efcf52c78a0930def2cd3",
-        "verifier_id": 3,
-        "hash": "d519a117e6efd9b5ac7effabc62cc009be10bd039d87070b6ad073d542db0553"
+        "timestamp": "2025-03-18T23:44:22.498475",
+        "previous_hash": "96ef31c05ce4368e885ac66936ae33708635f26511445f62f955c37c138bab0d",
+        "verifier_id": 2,
+        "hash": "3cf6af323b97c88a9abe483b776a3ef5a597202ef2c872e017e51e8954671874"
     },
     {
         "index": 9,
         "transactions": [
             {
                 "type": "task_submissions",
-                "task_id": "52c24c9e9a71",
+                "task_id": "444a83850a41",
                 "submissions": [
                     {
                         "worker_id": 0,
                         "task_hash": "aebbc6d63efe6ec0c3bf043c85fc93579ae6f40ebc492c1cf731a7df959a81eb",
-                        "timestamp": "2025-03-18T23:02:45.462664",
-                        "signature": "cf4d646709ba65d4b2e1dabd22e08dc44a71646e611076b244fe61d1955f27c1",
-                        "task_id": "52c24c9e9a71"
+                        "timestamp": "2025-03-18T23:44:22.499796",
+                        "signature": "19a8de9e9df24f31358df53acf108893167efa2895cccd1145d14820b47cd6de",
+                        "task_id": "444a83850a41"
                     },
                     {
                         "worker_id": 1,
                         "task_hash": "aebbc6d63efe6ec0c3bf043c85fc93579ae6f40ebc492c1cf731a7df959a81eb",
-                        "timestamp": "2025-03-18T23:02:45.462664",
-                        "signature": "e408bbffc2fe74ded684135db7a283e533c09fc9e4db94493c2652b7fc959833",
-                        "task_id": "52c24c9e9a71"
+                        "timestamp": "2025-03-18T23:44:22.499796",
+                        "signature": "b99c238f753a24b0ae4369ae886a5d28c3a96c42cfb1fda8e87cb98bc482f291",
+                        "task_id": "444a83850a41"
                     },
                     {
                         "worker_id": 2,
                         "task_hash": "aebbc6d63efe6ec0c3bf043c85fc93579ae6f40ebc492c1cf731a7df959a81eb",
-                        "timestamp": "2025-03-18T23:02:45.462664",
-                        "signature": "90371977b8162c3b00ffa00987444c193aff6a771e6503f24688145709fa673b",
-                        "task_id": "52c24c9e9a71"
+                        "timestamp": "2025-03-18T23:44:22.499796",
+                        "signature": "0acfd063690cb20b39d401a35a2636e2bf1fa665e8239a30e53954b5c6d8516d",
+                        "task_id": "444a83850a41"
                     },
                     {
                         "worker_id": 3,
                         "task_hash": "aebbc6d63efe6ec0c3bf043c85fc93579ae6f40ebc492c1cf731a7df959a81eb",
-                        "timestamp": "2025-03-18T23:02:45.462664",
-                        "signature": "066484e3fb724ed26f20f916a8a77b7af3ce69dae7434b23df8ff272c108aff7",
-                        "task_id": "52c24c9e9a71"
+                        "timestamp": "2025-03-18T23:44:22.499796",
+                        "signature": "0c54cc5cdb61eb87bf50a54a90cde723776c0d73c00eb97dfe1864f353454ca7",
+                        "task_id": "444a83850a41"
                     },
                     {
                         "worker_id": 4,
                         "task_hash": "aebbc6d63efe6ec0c3bf043c85fc93579ae6f40ebc492c1cf731a7df959a81eb",
-                        "timestamp": "2025-03-18T23:02:45.462664",
-                        "signature": "c9bc8cc40f0f55883ad7c055829e0611f1b837673bc3bea727c58a305a5f766b",
-                        "task_id": "52c24c9e9a71"
+                        "timestamp": "2025-03-18T23:44:22.499796",
+                        "signature": "4c437d5090e077a4bb3ae3e3694abdb346b9e82f32631c426f074fce72cc203f",
+                        "task_id": "444a83850a41"
                     }
                 ],
-                "timestamp": "2025-03-18T23:02:45.462664"
+                "timestamp": "2025-03-18T23:44:22.499796"
             },
             {
                 "type": "task_evaluations",
-                "task_id": "52c24c9e9a71",
+                "task_id": "444a83850a41",
                 "evaluations": [
                     {
                         "worker_id": 0,
-                        "task_completion": 0.7859873774358231,
-                        "status": "neutral",
-                        "r_coin_before": 1,
-                        "r_coin_after": 1,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.462664",
-                        "task_id": "52c24c9e9a71"
+                        "task_completion": 0.813356781293728,
+                        "status": "rewarded",
+                        "r_coin_before": 0,
+                        "r_coin_after": 10,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.499796",
+                        "task_id": "444a83850a41"
                     },
                     {
                         "worker_id": 1,
-                        "task_completion": 0.8180679925129379,
-                        "status": "rewarded",
-                        "r_coin_before": 5,
-                        "r_coin_after": 15,
-                        "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.463662",
-                        "task_id": "52c24c9e9a71"
+                        "task_completion": 0.6907738557314687,
+                        "status": "neutral",
+                        "r_coin_before": 9,
+                        "r_coin_after": 9,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-18T23:44:22.499796",
+                        "task_id": "444a83850a41"
                     },
                     {
                         "worker_id": 2,
-                        "task_completion": 0.4505741097011033,
-                        "status": "punished",
-                        "r_coin_before": 4,
-                        "r_coin_after": 2,
-                        "r_coin_change": -2,
-                        "timestamp": "2025-03-18T23:02:45.463662",
-                        "task_id": "52c24c9e9a71"
+                        "task_completion": 0.9120177468958826,
+                        "status": "rewarded",
+                        "r_coin_before": 2,
+                        "r_coin_after": 12,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.499796",
+                        "task_id": "444a83850a41"
                     },
                     {
                         "worker_id": 3,
-                        "task_completion": 0.8445778659502334,
-                        "status": "rewarded",
-                        "r_coin_before": 9,
-                        "r_coin_after": 19,
-                        "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.463662",
-                        "task_id": "52c24c9e9a71"
+                        "task_completion": 0.7674461343823656,
+                        "status": "neutral",
+                        "r_coin_before": 8,
+                        "r_coin_after": 8,
+                        "r_coin_change": 0,
+                        "timestamp": "2025-03-18T23:44:22.499796",
+                        "task_id": "444a83850a41"
                     },
                     {
                         "worker_id": 4,
-                        "task_completion": 0.623288174147309,
+                        "task_completion": 0.5793625001642986,
                         "status": "neutral",
-                        "r_coin_before": 1,
-                        "r_coin_after": 1,
+                        "r_coin_before": 5,
+                        "r_coin_after": 5,
                         "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.463662",
-                        "task_id": "52c24c9e9a71"
+                        "timestamp": "2025-03-18T23:44:22.499796",
+                        "task_id": "444a83850a41"
                     }
                 ],
-                "verifier_id": 3,
-                "timestamp": "2025-03-18T23:02:45.463662"
+                "verifier_id": 4,
+                "timestamp": "2025-03-18T23:44:22.499796"
             }
         ],
-        "timestamp": "2025-03-18T23:02:45.463662",
-        "previous_hash": "d519a117e6efd9b5ac7effabc62cc009be10bd039d87070b6ad073d542db0553",
-        "verifier_id": 3,
-        "hash": "50626e75de98d587c50ff824033b375ba6723e6850ef4464a81dda9624459e1e"
+        "timestamp": "2025-03-18T23:44:22.499796",
+        "previous_hash": "3cf6af323b97c88a9abe483b776a3ef5a597202ef2c872e017e51e8954671874",
+        "verifier_id": 4,
+        "hash": "64cda0a6c9a8fb054f5cb7ff708b7a4e0a075e5a4d354094c6c3999352e31cea"
     },
     {
         "index": 10,
         "transactions": [
             {
                 "type": "task_submissions",
-                "task_id": "583c835a4d2f",
+                "task_id": "23d092fa0cd9",
                 "submissions": [
                     {
                         "worker_id": 0,
                         "task_hash": "95e3cb8642757f288b31dac0dea617aae97c3d9f0efa57e69b4b264b9e91bb3f",
-                        "timestamp": "2025-03-18T23:02:45.465663",
-                        "signature": "bbf9eee373934538761066b607a695c0a4949bc01c52590510ecb408037e4e1a",
-                        "task_id": "583c835a4d2f"
+                        "timestamp": "2025-03-18T23:44:22.501803",
+                        "signature": "c44ca356a0f73c37974ec04ac4a3aaa7b75ecee2e3ab096147a4a1b758307fe6",
+                        "task_id": "23d092fa0cd9"
                     },
                     {
                         "worker_id": 1,
                         "task_hash": "95e3cb8642757f288b31dac0dea617aae97c3d9f0efa57e69b4b264b9e91bb3f",
-                        "timestamp": "2025-03-18T23:02:45.465663",
-                        "signature": "0fceb670334220b909b85b64a69b4782a77c38b1037185fd21f1c29455f79444",
-                        "task_id": "583c835a4d2f"
+                        "timestamp": "2025-03-18T23:44:22.501803",
+                        "signature": "0694cbb3051a6674808b578938d98bd49166fff33b58bfc5336d7257fd346319",
+                        "task_id": "23d092fa0cd9"
                     },
                     {
                         "worker_id": 2,
                         "task_hash": "95e3cb8642757f288b31dac0dea617aae97c3d9f0efa57e69b4b264b9e91bb3f",
-                        "timestamp": "2025-03-18T23:02:45.465663",
-                        "signature": "0f259f0731231d3b4e52491d38a89ca2d47cc9947bd85c2203ab9adb27dbc92b",
-                        "task_id": "583c835a4d2f"
+                        "timestamp": "2025-03-18T23:44:22.501803",
+                        "signature": "1987210c5915d928f070bdb8e0bb7fc90c751d436d657e15e78f4bd3532ebe2c",
+                        "task_id": "23d092fa0cd9"
                     },
                     {
                         "worker_id": 3,
                         "task_hash": "95e3cb8642757f288b31dac0dea617aae97c3d9f0efa57e69b4b264b9e91bb3f",
-                        "timestamp": "2025-03-18T23:02:45.465663",
-                        "signature": "8f123e1dbd22f6cd102cbea47455042e8d137d1b1f2e8fe9b63f93b4e0c89cba",
-                        "task_id": "583c835a4d2f"
+                        "timestamp": "2025-03-18T23:44:22.501803",
+                        "signature": "98a5bd4af5111eefbe9315b22208a6b807f12f9bfbdf1644ca91a1f6d71533f2",
+                        "task_id": "23d092fa0cd9"
                     },
                     {
                         "worker_id": 4,
                         "task_hash": "95e3cb8642757f288b31dac0dea617aae97c3d9f0efa57e69b4b264b9e91bb3f",
-                        "timestamp": "2025-03-18T23:02:45.465663",
-                        "signature": "a9716ea73ce4d35e9b92645f7884cee88ec9be0dbaec06ac1e02dcf10100ed2e",
-                        "task_id": "583c835a4d2f"
+                        "timestamp": "2025-03-18T23:44:22.501803",
+                        "signature": "cafba7ec179983dc20ab3ec2312f8154a0808ad6698573c6dbab025529dee265",
+                        "task_id": "23d092fa0cd9"
                     }
                 ],
-                "timestamp": "2025-03-18T23:02:45.465663"
+                "timestamp": "2025-03-18T23:44:22.501803"
             },
             {
                 "type": "task_evaluations",
-                "task_id": "583c835a4d2f",
+                "task_id": "23d092fa0cd9",
                 "evaluations": [
                     {
                         "worker_id": 0,
-                        "task_completion": 0.6446683125181122,
-                        "status": "neutral",
-                        "r_coin_before": 0,
-                        "r_coin_after": 0,
-                        "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.465663",
-                        "task_id": "583c835a4d2f"
+                        "task_completion": 0.87625554415983,
+                        "status": "rewarded",
+                        "r_coin_before": 9,
+                        "r_coin_after": 19,
+                        "r_coin_change": 10,
+                        "timestamp": "2025-03-18T23:44:22.501803",
+                        "task_id": "23d092fa0cd9"
                     },
                     {
                         "worker_id": 1,
-                        "task_completion": 0.8606104037128194,
+                        "task_completion": 0.8012699421759106,
                         "status": "rewarded",
                         "r_coin_before": 5,
                         "r_coin_after": 15,
                         "r_coin_change": 10,
-                        "timestamp": "2025-03-18T23:02:45.465663",
-                        "task_id": "583c835a4d2f"
+                        "timestamp": "2025-03-18T23:44:22.501803",
+                        "task_id": "23d092fa0cd9"
                     },
                     {
                         "worker_id": 2,
-                        "task_completion": 0.793161217864662,
+                        "task_completion": 0.6860259288610786,
                         "status": "neutral",
-                        "r_coin_before": 1,
-                        "r_coin_after": 1,
+                        "r_coin_before": 12,
+                        "r_coin_after": 12,
                         "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.465663",
-                        "task_id": "583c835a4d2f"
+                        "timestamp": "2025-03-18T23:44:22.501803",
+                        "task_id": "23d092fa0cd9"
                     },
                     {
                         "worker_id": 3,
-                        "task_completion": 0.6961355324083556,
+                        "task_completion": 0.7368871818980821,
                         "status": "neutral",
-                        "r_coin_before": 24,
-                        "r_coin_after": 24,
+                        "r_coin_before": 7,
+                        "r_coin_after": 7,
                         "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.465663",
-                        "task_id": "583c835a4d2f"
+                        "timestamp": "2025-03-18T23:44:22.501803",
+                        "task_id": "23d092fa0cd9"
                     },
                     {
                         "worker_id": 4,
-                        "task_completion": 0.7199173067331129,
+                        "task_completion": 0.5272094791114261,
                         "status": "neutral",
-                        "r_coin_before": 0,
-                        "r_coin_after": 0,
+                        "r_coin_before": 4,
+                        "r_coin_after": 4,
                         "r_coin_change": 0,
-                        "timestamp": "2025-03-18T23:02:45.465663",
-                        "task_id": "583c835a4d2f"
+                        "timestamp": "2025-03-18T23:44:22.501803",
+                        "task_id": "23d092fa0cd9"
                     }
                 ],
                 "verifier_id": 1,
-                "timestamp": "2025-03-18T23:02:45.465663"
+                "timestamp": "2025-03-18T23:44:22.501803"
             }
         ],
-        "timestamp": "2025-03-18T23:02:45.465663",
-        "previous_hash": "50626e75de98d587c50ff824033b375ba6723e6850ef4464a81dda9624459e1e",
+        "timestamp": "2025-03-18T23:44:22.501803",
+        "previous_hash": "64cda0a6c9a8fb054f5cb7ff708b7a4e0a075e5a4d354094c6c3999352e31cea",
         "verifier_id": 1,
-        "hash": "7b5b0effd01046385d8928f3522cb24e2ff6ab7f1cf51668fe78673d4752ed8c"
+        "hash": "71af0b936b07a8b7156139b914cbacd5a757131e8bcc464cca1224a161f9e722"
     }
 ]
