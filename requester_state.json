@@ -1,0 +1,17 @@
+{
+    "id": 5,
+    "r_coin": 800,
+    "s_coin": 0,
+    "history": [
+        "R-coin: 1000 -> 980, S-coin: 0 -> 0",
+        "R-coin: 980 -> 960, S-coin: 0 -> 0",
+        "R-coin: 960 -> 940, S-coin: 0 -> 0",
+        "R-coin: 940 -> 920, S-coin: 0 -> 0",
+        "R-coin: 920 -> 900, S-coin: 0 -> 0",
+        "R-coin: 900 -> 880, S-coin: 0 -> 0",
+        "R-coin: 880 -> 860, S-coin: 0 -> 0",
+        "R-coin: 860 -> 840, S-coin: 0 -> 0",
+        "R-coin: 840 -> 820, S-coin: 0 -> 0",
+        "R-coin: 820 -> 800, S-coin: 0 -> 0"
+    ]
+}

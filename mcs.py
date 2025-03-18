@@ -83,22 +83,56 @@ class Worker(Node):
         }
 
 
+class Requester(Node):
+    def create_task(self, task_description: str, reward_amount: int) -> Dict[str, Any]:
+        """創建任務並指定獎勵金額"""
+        try:
+            if reward_amount <= 0:
+                raise ValueError(f"獎勵金額必須為正數: {reward_amount}")
+            if reward_amount > self.r_coin:
+                raise ValueError(f"Requester {self.id} 沒有足夠的 R-coin (擁有: {self.r_coin}, 獎勵: {reward_amount})")
+            
+            # 扣除獎勵金額
+            self.update_coins(r_coin_change=-reward_amount)
+            
+            return {
+                "requester_id": self.id,
+                "task_description": task_description,
+                "reward_amount": reward_amount,
+                "timestamp": datetime.now().isoformat()
+            }
+        except ValueError as e:
+            logger.warning(str(e))
+            return {}
+
+    def to_dict(self) -> Dict[str, Any]:
+        """將請求者轉為字典"""
+        return {
+            "id": self.id,
+            "r_coin": self.r_coin,
+            "s_coin": self.s_coin,
+            "history": self.history
+        }
+
+
 class Server:
     def __init__(self, config: SystemConfig):
         self.tasks = []
         self.config = config
         self.transactions = []
 
-    def broadcast_task(self, task_data: str) -> str:
+    def broadcast_task(self, task_data: str, requester_id: int, reward_amount: int) -> str:
         """廣播任務並生成任務ID"""
         task_id = hashlib.sha256(f"{task_data}{datetime.now().isoformat()}".encode()).hexdigest()[:12]
         task_info = {
             "task_id": task_id,
             "task_data": task_data,
+            "requester_id": requester_id,
+            "reward_amount": reward_amount,
             "timestamp": datetime.now().isoformat()
         }
         self.tasks.append(task_info)
-        logger.info(f"任務廣播: ID={task_id}")
+        logger.info(f"任務廣播: ID={task_id}, 請求者={requester_id}, 獎勵={reward_amount}")
         return task_id
 
     def _calculate_selection_probabilities(self, nodes: List[Worker], total_declared_r: int) -> Dict[int, float]:
@@ -155,7 +189,6 @@ class Server:
         self.transactions.extend(transaction_records)
 
         # 基於當前S-coin和安全隨機數選擇驗證者
-        # 使用加權隨機選擇而不是簡單的最大值
         probabilities = self._calculate_selection_probabilities(nodes, total_declared_r)
 
         # 生成安全的隨機哈希
@@ -348,13 +381,24 @@ def simulate_task_completion() -> float:
 
 
 def simulate_crowdsensing(blockchain: Blockchain, server: Server, workers: List[Worker],
-                          qrm: QualityReputationManager, task_num: int):
+                          qrm: QualityReputationManager, task_num: int, requester: Requester):
     """模擬眾包感知流程"""
     logger.info(f"======== 開始第 {task_num} 輪模擬 ========")
 
     # Step1: 創建任務
-    task_data = f"Sensor data collection task #{task_num}"
-    task_id = server.broadcast_task(task_data)
+    task_description = f"Sensor data collection task #{task_num}"
+    reward_amount = 20  # 設定任務獎勵金額
+    task_info = requester.create_task(task_description, reward_amount)
+    
+    if not task_info:
+        logger.warning("任務創建失敗，跳過此輪")
+        return False
+        
+    task_id = server.broadcast_task(
+        task_data=task_description,
+        requester_id=requester.id,
+        reward_amount=reward_amount
+    )
 
     # Step2: 選擇驗證者
     verifier = server.select_verifier(workers, blockchain)
@@ -365,7 +409,7 @@ def simulate_crowdsensing(blockchain: Blockchain, server: Server, workers: List[
     # Step3: 提交任務結果
     task_submissions = []
     for worker in workers:
-        submission = worker.submit_task(task_data)
+        submission = worker.submit_task(task_description)
         submission["task_id"] = task_id
         task_submissions.append(submission)
 
@@ -423,6 +467,10 @@ def main():
         workers.append(worker)
         logger.info(f"創建工作節點 {i}，初始 R-coin: {worker.r_coin}")
 
+    # 創建請求者
+    requester = Requester(id=num_workers, initial_r_coin=1000)  # 給予請求者較多的初始 R-coin
+    logger.info(f"創建請求者 {requester.id}，初始 R-coin: {requester.r_coin}")
+
     # 創建服務器和區塊鏈
     server = Server(config)
     blockchain = Blockchain()
@@ -433,7 +481,7 @@ def main():
     successful_rounds = 0
 
     for round_num in range(1, simulation_rounds + 1):
-        success = simulate_crowdsensing(blockchain, server, workers, qrm, round_num)
+        success = simulate_crowdsensing(blockchain, server, workers, qrm, round_num, requester)
         if success:
             successful_rounds += 1
 
@@ -454,16 +502,23 @@ def main():
     print("\n工作節點狀態:")
     for worker in workers:
         print(f"工作節點 {worker.id}: R-coin={worker.r_coin}, S-coin={worker.s_coin}")
+    
+    print(f"\n請求者狀態:")
+    print(f"請求者 {requester.id}: R-coin={requester.r_coin}, S-coin={requester.s_coin}")
 
     # 保存區塊鏈到檔案
     blockchain.save_to_file()
 
-    # 保存工作節點狀態
+    # 保存工作節點和請求者狀態
     with open("workers_state.json", 'w') as file:
         json.dump([worker.to_dict() for worker in workers], file, indent=4)
     logger.info("工作節點狀態已保存到 workers_state.json")
+    
+    with open("requester_state.json", 'w') as file:
+        json.dump(requester.to_dict(), file, indent=4)
+    logger.info("請求者狀態已保存到 requester_state.json")
 
-    return blockchain, workers, server
+    return blockchain, workers, server, requester
 
 
 if __name__ == "__main__":
