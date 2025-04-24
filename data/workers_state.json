@@ -1,0 +1,62 @@
+[
+    {
+        "id": 0,
+        "r_coin": 81,
+        "s_coin": 0,
+        "history": []
+    },
+    {
+        "id": 1,
+        "r_coin": 55,
+        "s_coin": 0,
+        "history": []
+    },
+    {
+        "id": 2,
+        "r_coin": 88,
+        "s_coin": 0,
+        "history": []
+    },
+    {
+        "id": 3,
+        "r_coin": 99,
+        "s_coin": 0,
+        "history": []
+    },
+    {
+        "id": 4,
+        "r_coin": 88,
+        "s_coin": 0,
+        "history": []
+    },
+    {
+        "id": 5,
+        "r_coin": 63,
+        "s_coin": 0,
+        "history": []
+    },
+    {
+        "id": 6,
+        "r_coin": 51,
+        "s_coin": 0,
+        "history": []
+    },
+    {
+        "id": 7,
+        "r_coin": 54,
+        "s_coin": 0,
+        "history": []
+    },
+    {
+        "id": 8,
+        "r_coin": 57,
+        "s_coin": 0,
+        "history": []
+    },
+    {
+        "id": 9,
+        "r_coin": 53,
+        "s_coin": 0,
+        "history": []
+    }
+]
